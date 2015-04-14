@@ -1,0 +1,263 @@
+/*
+  $Id: stylesheet.css,v 1.1.1.1 2004/03/04 23:39:43 ccwjr Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2002 osCommerce
+
+  Released under the GNU General Public License
+*/
+@import url("menu.css");
+/* links */
+
+a:link.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none; }
+a:visited.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none }
+a:active.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none; }
+a:hover.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: underline; }
+
+a:link.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
+a:visited.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
+a:active.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
+a:hover.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
+
+a:link.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: none; }
+a:visited.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: none; }
+a:active.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: none; }
+a:hover.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: underline; }
+
+a:link.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:visited.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:active.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 110px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:hover.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: underline;  }
+
+/* menu box */
+.menuBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; background-color: #ffffff; }
+.menuBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; }
+
+/* page */
+body { background-color: #ffffff; color: #000000; margin: 0px; }
+.headerBar { background-color: #B3BAC5; }
+.headerBarContent { font-family: Verdana, Arial, sans-serif; font-size: 8px; color: #000080; font-weight: bold; padding: 2px }
+.columnLeft { background-color: #F0F1F1; border-color: #999999; border-width: 1px; border-style: solid; padding: 2px; }
+.pageHeading { font-family: Verdana, Arial, sans-serif; font-size: 18px; color: #727272; font-weight: bold; }
+.pageHeadingSmall { font-family: Verdana, Arial, sans-serif; font-size: 14px; color: #727272; font-weight: bold; }
+
+/* data table */
+.dataTableHeadingRow { background-color: #619FD4; }
+.dataTableHeadingContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; }
+.dataTableRow { background-color: #EBF2F9; }
+.dataTableRowSelected { background-color: #F0E1C3; }
+.dataTableRowSelectedPink { background-color: #F8E0F3; }
+.dataTableRowSelectedYellow { background-color:#FFFFCC; }
+.dataTableRowOver { background-color: #DADADE; cursor: pointer; cursor: hand; }
+.dataTableContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }
+
+/* info box */
+.infoBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; background-color: #B3BAC5; }
+.infoBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #DEE4E8; }
+
+/* message box */
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
+
+/* forms */
+CHECKBOX, INPUT, RADIO, SELECT, TEXTAREA, FILE { font-family: Verdana, Arial, sans-serif; font-size: 11px; border:1px solid #DADADA; padding:3px 2px 3px 2px;}
+FORM { display: inline; }
+
+/* account */
+.formArea { background-color: #f1f9fe; border-color: #7b9ebd; border-style: solid; border-width: 1px; }
+.formAreaTitle { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; }
+
+/* attributes */
+.attributes-odd { background-color: #f4f7fd; }
+.attributes-even { background-color: #ffffff; }
+
+/* miscellaneous */
+.specialPrice { color: #ff0000; }
+.oldPrice { text-decoration: line-through; }
+.fieldRequired { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+.smallText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.main { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+.errorText { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+
+/* WebMakers.com Added: Editing Attributes */
+.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TR.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TD.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #C0C0C0; }
+
+/* Lango Infobox Admin */
+.infoboxAdmin { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; }
+.infobox-listing-odd {   background: #f8f8f9; }
+.infobox-listing-even {   background: ##F0F1F1; }
+
+ fieldset { border: 1px solid rgb(204, 204, 204);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    }
+
+  fieldset p { margin: 10px 0px;
+    }
+
+  legend { border: 1px solid rgb(204, 204, 204);
+    padding: 2px;
+    color: #000063;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    }
+
+
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid #778;
+color: #2d2b2b;
+background: #EBF2F9 url(/image/shade.gif) top left repeat-x;
+}
+
+.shadetabs li a:visited{
+color: #2d2b2b;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #2d2b2b;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+top: 1px; outline:none;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-image: url(/image/shadeactive.gif);
+border-bottom-color: #EBF2F9; outline:none;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+/* end of selection tab*/
+.highlight_word{
+    background-color: pink;
+}
+.pageHeadingSmall_comp { font-family: Verdana, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+
+
+.sub { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; line-height: 1.5; color: #dddddd; }
+.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; }
+.smallText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.login_heading { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000;}
+.login { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000;}
+.loginfooter { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-size: 10pt }
+.successMsg { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: green; }
+
+.body_min_height
+{
+	height:450px;
+}
+.orddtl_link:link, .orddtl_link:visited	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; text-decoration:underline;	}
+.orddtl_link:hover	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; text-decoration:none;	}
+.grayBorder	{	border:1px solid #619fd4;	}
+.statuslst_link:link, .statuslst_link:visited	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #00388A; text-decoration:none;	}
+.statuslst_link:hover	{ text-decoration:underline;	}
+
+/* Start - Tiny MCE CSS*/
+/* Reset */
+.defaultSkin table, .defaultSkin tbody, .defaultSkin a, .defaultSkin img, .defaultSkin tr, .defaultSkin div, .defaultSkin td, .defaultSkin iframe, .defaultSkin span, .defaultSkin *, .defaultSkin .mceText {border:0; margin:0; padding:0; background:transparent; white-space:nowrap; text-decoration:none; font-weight:normal; cursor:default; color:#000; vertical-align:baseline; width:auto; border-collapse:separate; text-align:left}
+.defaultSkin a:hover, .defaultSkin a:link, .defaultSkin a:visited, .defaultSkin a:active {text-decoration:none; font-weight:normal; cursor:default; color:#000}
+.defaultSkin table td {vertical-align:middle}
+
+/* Containers */
+.defaultSkin table {direction:ltr; background:#F0F0EE}
+.defaultSkin iframe {display:block; background:#FFF}
+.defaultSkin .mceToolbar {height:26px}
+.defaultSkin .mceLeft {text-align:left}
+.defaultSkin .mceRight {text-align:right}
+
+/* External */
+.defaultSkin .mceExternalToolbar {position:absolute; border:1px solid #CCC; border-bottom:0; display:none;}
+.defaultSkin .mceExternalToolbar td.mceToolbar {padding-right:13px;}
+.defaultSkin .mceExternalClose {position:absolute; top:3px; right:3px; width:7px; height:7px; background:url(../../img/icons.gif) -820px 0}
+
+/* Layout */
+.defaultSkin table.mceLayout {border:0; border-left:1px solid #CCC; border-right:1px solid #CCC}
+.defaultSkin table.mceLayout tr.mceFirst td {border-top:1px solid #CCC}
+.defaultSkin table.mceLayout tr.mceLast td {border-bottom:1px solid #CCC}
+.defaultSkin table.mceToolbar, .defaultSkin tr.mceFirst .mceToolbar tr td, .defaultSkin tr.mceLast .mceToolbar tr td {border:0; margin:0; padding:0;}
+.defaultSkin td.mceToolbar {padding-top:1px; vertical-align:top}
+.defaultSkin .mceIframeContainer {border-top:1px solid #CCC; border-bottom:1px solid #CCC}
+.defaultSkin .mceStatusbar {font-family:'MS Sans Serif',sans-serif,Verdana,Arial; font-size:9pt; line-height:16px; overflow:visible; color:#000; display:block; height:20px}
+.defaultSkin .mceStatusbar div {float:left; margin:2px}
+.defaultSkin .mceStatusbar a.mceResize {display:block; float:right; background:url(../../img/icons.gif) -800px 0; width:20px; height:20px; cursor:se-resize; outline:0}
+.defaultSkin .mceStatusbar a:hover {text-decoration:underline}
+.defaultSkin table.mceToolbar {margin-left:3px}
+.defaultSkin span.mceIcon, .defaultSkin img.mceIcon {display:block; width:20px; height:20px}
+.defaultSkin .mceIcon {background:url(../../img/icons.gif) no-repeat 20px 20px}
+.defaultSkin td.mceCenter {text-align:center;}
+.defaultSkin td.mceCenter table {margin:0 auto; text-align:left;}
+.defaultSkin td.mceRight table {margin:0 0 0 auto;}
+
+/* Button */
+.defaultSkin .mceButton {display:block; border:1px solid #F0F0EE; width:20px; height:20px; margin-right:1px}
+.defaultSkin a.mceButtonEnabled:hover {border:1px solid #0A246A; background-color:#B2BBD0}
+.defaultSkin a.mceButtonActive, .defaultSkin a.mceButtonSelected {border:1px solid #0A246A; background-color:#C2CBE0}
+.defaultSkin .mceButtonDisabled .mceIcon {opacity:0.3; -ms-filter:'alpha(opacity=30)'; filter:alpha(opacity=30)}
+.defaultSkin .mceButtonLabeled {width:auto}
+.defaultSkin .mceButtonLabeled span.mceIcon {float:left}
+.defaultSkin span.mceButtonLabel {display:block; font-size:10px; padding:4px 6px 0 22px; font-family:Tahoma,Verdana,Arial,Helvetica}
+.defaultSkin .mceButtonDisabled .mceButtonLabel {color:#888}
+
+/* Separator */
+.defaultSkin .mceSeparator {display:block; background:url(../../img/icons.gif) -180px 0; width:2px; height:20px; margin:2px 2px 0 4px}
+
+/* Menu */
+.defaultSkin .mceMenu {position:absolute; left:0; top:0; z-index:1000; border:1px solid #D4D0C8}
+.defaultSkin .mceNoIcons span.mceIcon {width:0;}
+.defaultSkin .mceNoIcons a .mceText {padding-left:10px}
+.defaultSkin .mceMenu table {background:#FFF}
+.defaultSkin .mceMenu a, .defaultSkin .mceMenu span, .defaultSkin .mceMenu {display:block}
+.defaultSkin .mceMenu td {height:20px}
+.defaultSkin .mceMenu a {position:relative;padding:3px 0 4px 0}
+.defaultSkin .mceMenu .mceText {position:relative; display:block; font-family:Tahoma,Verdana,Arial,Helvetica; color:#000; cursor:default; margin:0; padding:0 25px 0 25px; display:block}
+.defaultSkin .mceMenu span.mceText, .defaultSkin .mceMenu .mcePreview {font-size:11px}
+.defaultSkin .mceMenu pre.mceText {font-family:Monospace}
+.defaultSkin .mceMenu .mceIcon {position:absolute; top:0; left:0; width:22px;}
+.defaultSkin .mceMenu .mceMenuItemEnabled a:hover, .defaultSkin .mceMenu .mceMenuItemActive {background-color:#dbecf3}
+.defaultSkin td.mceMenuItemSeparator {background:#DDD; height:1px}
+.defaultSkin .mceMenuItemTitle a {border:0; background:#EEE; border-bottom:1px solid #DDD}
+.defaultSkin .mceMenuItemTitle span.mceText {color:#000; font-weight:bold; padding-left:4px}
+.defaultSkin .mceMenuItemDisabled .mceText {color:#888}
+.defaultSkin .mceMenuItemSelected .mceIcon {background:url(img/menu_check.gif)}
+.defaultSkin .mceNoIcons .mceMenuItemSelected a {background:url(img/menu_arrow.gif) no-repeat -6px center}
+.defaultSkin .mceMenu span.mceMenuLine {display:none}
+.defaultSkin .mceMenuItemSub a {background:url(img/menu_arrow.gif) no-repeat top right;}
+a img{border:0}
+img{border:0}
+/* END - Tiny MCE CSS*/
