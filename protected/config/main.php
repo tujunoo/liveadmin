@@ -14,11 +14,12 @@ return array(
 
 	// autoloading model and component classes
 	'import'=>array(
+        'application.controllers.BaseController',
 		'application.models.*',
 		'application.components.*',
 	),
 
-	'defaultController'=>'post',
+	'defaultController'=>'site',
 
 	// application components
 	'components'=>array(

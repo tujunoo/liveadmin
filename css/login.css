@@ -1,0 +1,33 @@
+@chaset "utf-8";
+.loginform {
+        margin:150px auto 0 auto;
+        width:600px;
+        border:1px solid #DADADA;
+        background:#fff;
+        padding:10px;
+        box-shadow:4px 4px 4px #CCC;
+        border-radius:5px;
+}
+.loginform label {
+        width:10em;
+        text-align:right;
+        display:block;
+        float:left;
+        line-height:22px;
+}
+.loginform .row {
+        padding:5px;
+        clear:both;
+}
+.message{
+        padding:20px;
+}
+.loginform .header{
+        background: url("../img/top_bg.jpg") repeat-x scroll center top transparent;
+    height: 55px;
+    margin:0 0 10px 0 ;
+}
+.loginform .submitbar{
+        padding:0 0 0 10em;
+         margin:10px 0 10px 0 ;
+}
