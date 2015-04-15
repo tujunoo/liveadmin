@@ -18,8 +18,8 @@
 </head>
 <body id="admin-body">
 <div id="admin-top">
-    <a href="<?php echo $this->createUrl('site/index'); ?>">logo</a>
-    <h1 class="admin-title">管理中心</h1>
+    <a href="<?php echo $this->createUrl('site/index'); ?>"><img class="admin-logo" src="<?php echo $this->baseUrl; ?>/img/admin_logo.png" alt="" border="0" /></a>
+    <h1 class="admin-title">Store Admin</h1>
     <div class="welcome">
         Welcome,
         <?php echo Yii::app()->user->name;?>
@@ -38,18 +38,17 @@
     </h2>
     <div id="admin-side-con">
         <div class="admin-nav-box">
-            <ul id="admin-nav" class="admin-nav">
-
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">action1</a>
-                </li>
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action2')?>" target="conframe">action2</a>
-                </li>
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action3')?>" target="conframe">action3</a>
-                </li>
+        <ul id="admin-nav" class="admin-nav">
+        <li class="navtit"> <a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">menu1</a>
+            <ul class="navsub">
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Listings</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Type</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Provider</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Attributes</a></li>
             </ul>
+        </li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('site/action2'); ?>" target="conframe">Minority Group</a></li>
+        </ul>
         </div>
     </div>
 </div>
