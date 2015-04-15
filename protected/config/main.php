@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Yii Blog Demo',
+	'name'=>'admin',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -27,21 +27,31 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'db'=>array(
-			'connectionString' => 'sqlite:protected/data/blog.db',
-			'tablePrefix' => 'tbl_',
-		),
+//		'db'=>array(
+//			'connectionString' => 'sqlite:protected/data/blog.db',
+//			'tablePrefix' => 'tbl_',
+//		),
 		// uncomment the following to use a MySQL database
-		/*
+        //mysql读写分离
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=blog',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
-			'charset' => 'utf8',
+            'class' => 'application.models.extensions.DbConnection',    //CDbConnection
+            'emulatePrepare' => true,
+            'charset' => 'utf8',
+            'enableProfiling' => YII_DEBUG,
+            'enableParamLogging' => YII_DEBUG,
+            'connectionString' => 'mysql:host=localhost;dbname=blog',
+            'username' => 'root',
+            'password' => 'root',
 			'tablePrefix' => 'tbl_',
+            'slave' => array(
+                'emulatePrepare' => true,
+			    'connectionString' => 'mysql:host=localhost;dbname=blog',
+                'username' => 'root',
+                'password' => 'root',
+                'charset' => 'utf8',
+                'tablePrefix' => 'tbl_',
+            ),
 		),
-		*/
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
