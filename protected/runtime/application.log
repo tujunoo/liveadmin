@@ -900,3 +900,37 @@ Stack trace:
 REQUEST_URI=/index.php/account/index
 HTTP_REFERER=http://admin.live.com/index.php
 ---
+2015/04/15 14:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/15 14:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/04/15 14:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/15 14:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---

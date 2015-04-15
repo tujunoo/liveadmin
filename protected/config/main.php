@@ -47,6 +47,7 @@ return array(
 			'errorAction'=>'site/error',
 		),
 		'urlManager'=>array(
+            'showScriptName'=>false,
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'post/<id:\d+>/<title:.*?>'=>'post/view',
