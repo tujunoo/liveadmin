@@ -41,7 +41,7 @@ return array(
             'charset' => 'utf8',
             'enableProfiling' => YII_DEBUG,
             'enableParamLogging' => YII_DEBUG,
-            'connectionString' => 'mysql:host=localhos;dbname=live',
+            'connectionString' => 'mysql:host=localhost;dbname=live',
             'username' => 'root',
             'password' => 'root',
 			'tablePrefix' => 'tbl_',

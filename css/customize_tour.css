@@ -1,0 +1,180 @@
+/*basic extend*/
+.purple{color:#CC00CC;}
+.vam{vertical-align:middle;}
+
+/*frmWrap extend*/
+.frmWrap .fcon > input[type="checkbox"]{margin-top:3px;}
+.frmWrapPercentage .flabel{width:22%;max-width:320px;}
+.frmWrapPercentage .fcon{width:73%;}
+
+/*tab link*/
+.tab-link{padding:10px 0;overflow:hidden;}
+.tab-link a{float:left;height:30px;line-height:30px;margin-top:2px;padding-left:18px;font-size:14px;background:url(../img/tab_title_bg.gif) no-repeat left -40px;font-weight:normal;margin-right:1px;cursor:pointer;_display:inline;color:#000;text-decoration:none;}
+.tab-link a span{float:left;height:32px;padding-right:18px;background:url(../img/tab_title_bg.gif) no-repeat right -40px;cursor:pointer;}
+.tab-link a.current{height:32px;line-height:32px;margin-top:0;font-weight:bold;background-position:left -8px;cursor:default;font-size:16px;}
+.tab-link a.current span{background-position:right -8px;cursor:default;}
+
+
+/*.table5*/
+.table5{border:1px solid #D7DDD1;}
+.table5 th{font-size:12px;font-weight:bold;color:#000;line-height:30px;background-color:#D8F0FA;border-left:1px solid #D8DDD2;}
+.table5 td{border:1px solid #D8DDD2;padding:3px 5px;}
+.edit-link,.add-row,
+.link,
+.link:link,
+.link:visited,
+.cancel-link,
+.save-link,
+.edit-link:link,
+.save-link:link,
+.save-link:visited,
+.add-row:visited,
+.add-row:link,
+.delete-link:link,
+.edit-link:visited,
+.delete-link:visited,
+.cancel-link:link,
+.cancel-link:visited{color:#0066FF;text-decoration:underline;}
+
+/*table6*/
+.table6{border:1px solid #D7DDD1;}
+.table6 th{font-size:12px;font-weight:bold;color:#000;line-height:30px;background-color:#A2DCF9;padding-left:15px;border-left:1px solid #D8DDD2;}
+.table6 td{border:1px solid #D8DDD2;padding:3px 0;}
+
+/*table7*/
+.table7{border:1px solid #D7DDD1;}
+.table7 th{font-size:12px;font-weight:bold;color:#000;line-height:30px;background-color:#FFE98E;padding-left:15px;border-left:1px solid #D8DDD2;text-align:center;}
+.table7 td{border:1px solid #D8DDD2;padding:8px 0;text-align:center;}
+/*table1 ����*/
+.table1 > th{line-height:150%;padding-top:5px;padding-bottom:5px;}
+.tableBorder th,
+.tableBorder td{border:1px solid #CCC;}
+.table1 > th,.table1 > td{border-color:#CEE3FA;}
+
+/*��������*/
+.orderFilterBox{overflow:visible;min-height:220px;_height:220px;}
+.orderFilter{padding:5px 10px 20px;}
+.orderFilter .fmenu{height:40px;line-height:20px;position:relative;display:inline-block;margin:10px 20px 0;border:1px solid #FFF;float:left;padding:0 5px;}
+.orderFilter .fmenu h4{font-weight:normal;color:#777;cursor:default;white-space:nowrap;}
+.orderFilter .fmenu h4 a,
+.orderFilter .fmenu h4 span{margin-right:3px;color:#0066CC;}
+
+.orderFilter .current{background:#5F94D8;border:1px solid #487BBD;}
+.orderFilter .current h4,
+.orderFilter .current h4 a,
+.orderFilter .current h4 span{color:#FFF;}
+.orderFilter .fmenu a:hover span{text-decoration:none;}
+.orderFilter .fmenu h5{height:17px;line-height:17px;color:#A6DDFF;font-weight:normal;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow:hidden;cursor:default;white-space:nowrap;}
+
+.orderFilter .fmenu .hasSub{padding-right:12px;background:url(../img/change_sys.gif) no-repeat right 9px;}
+
+.orderFilter .fmenu ul{position:absolute;top:20px;left:0;border:1px solid #ccc;border-radius:5px;box-shoadow:0px 0px 5px #CCC;display:none;background:#FFF;box-shadow:0 0 4px #CCC;padding:5px 0;}
+.orderFilter .fmenu ul li{padding:2px 10px;white-space:nowrap;color:#777;}
+.orderFilter .fmenu ul li.current{border:none;background:#EAEAEA;}
+.orderFilter .fmenu ul li a{margin-right:3px;}
+.orderFilter .active ul{top:41px;}
+
+/*float list*/
+.noHandle td{font-weight:bold;}
+.float-list{padding-right:240px;position:relative;overflow:visible;}
+.float-list .floatLayer{width:230px;position:absolute;right:0;top:10px;background:#FAFAFA;border:1px solid #FBCB65;font-weight:normal;white-spacing:normal;word-break:break-all;display:none;}
+.float-list .floatLayer h2{background:#FCCC66 url(../img/tr_hl_bg.jpg) repeat-x left center;padding:5px;}
+.float-list .floatLayer h3{border-top:1px dashed #CCC;padding:5px 0;margin-top:5px;}
+.float-list .floatLayerCon{padding:5px 10px;}
+.float-list .floatLayer ul li{color:#777;}
+.float-list .floatLayer ul li span{color:#000;margin-right:5px;}
+.float-list .floatLayer .btn,
+.float-list .floatLayer .btn2{padding:0 10px;}
+
+.main-title span{font-weight:normal;color:#777;}
+.order-title{font-size:15px;font-weight:bold;padding:5px 0;margin-top:10px;}
+.order-title a{font-size:12px;font-weight:normal;}
+.vertical-top{vertical-align:top;}
+
+.flightForm{width:425px;overflow:hidden;float:left;}
+#flightBox{overflow:hidden;display:none;}
+
+.serviceForm .label{float:left;width:170px;text-align:right;color:#777;}
+.serviceForm .label{width:auto;line-height:20px;}
+.serviceForm li{margin-top:5px;}
+.serviceForm li p{width:780px;float:left;color:#000;line-height:20px;}
+.serviceForm li p label{display:inline-block;margin-right:25px;cursor:pointer;}
+.serviceForm li p input{margin-right:5px;}
+.serviceForm .baocanTip{font-size:12px;color:#767676;}
+.serviceForm li .qiw{width:770px;border:1px solid #DDD;background-color:#FFF;padding:10px;margin-top:5px;font-size:12px;overflow:hidden;}
+.serviceForm li .tf-jd{float:left;width:50px;font-size:12px;color:#0273ED;margin-left:10px;_display:inline;margin-top:5px;}
+.qiw span{display:inline-block;float:left;padding:3px 3px 1px;border:1px solid #DDD;background-color:#FDFDFD;line-height:15px;margin:5px;white-space:nowrap;word-break:keep-all;}
+.qiw span em{display:inline-block;width:10px;height:10px;overflow:hidden;background:url(../img/xbt/delete.gif) no-repeat;cursor:pointer;margin-left:10px;vertical-align:middle;}
+.qiw span{display:inline-block;float:left;padding:3px 18px 1px 3px;border:1px solid #DDD;background-color:#FDFDFD;line-height:15px;margin:5px;white-space:nowrap;word-break:keep-all;overflow:hidden;_zoom:1;background:url(../img/xbt/delete.gif) no-repeat right center;cursor:pointer;}
+.serviceForm{overflow:hidden;}
+.serviceForm li{padding:1px 0;overflow:hidden;}
+.serviceForm .tffIpt{width:144px;}
+.serviceForm .calendar{width:127px;}
+.serviceForm .fightTit{clear:both;font-size:14px;padding:10px 0;color:#000;}
+
+/*����ľ���*/
+#jd{width:550px;}
+.jd{padding:15px;}
+.btnCenter .tffBtn{margin-left:5px;}
+.jdList{padding:10px;overflow:hidden;border-bottom:1px dashed #DBDBDB;}
+.jdList a{font-size:12px;float:left;border:1px solid #FFF;padding:3px 4px 1px;color:#014191;margin:5px;_display:inline;cursor:pointer;white-space:nowrap;word-break:keep-all;}
+.jdList a:hover{border-color:#D0E7FF;text-decoration:none;}
+.jdList a.selected{background:#E8F2FF url(../img/xbt/delete.gif) no-repeat right center;border-color:#ACD3FF;padding-right:15px;}
+.jdList a.selected{background:#E8F2FF url(../img/xbt/delete.gif) no-repeat right center;border-color:#ACD3FF;padding-right:18px;}
+
+/*������ͷݷ���*/
+.name-room-box{min-width:1070px;overflow:hidden;}
+.name-room-table{width:1200px;float:left;}
+.name-room-table .table5 td,
+.name-room-table .table5 th{text-align:center;}
+.name-room-note{width:300px;float:left;margin-left:15px;_display:inline;}
+.name-room-note h5{padding:5px 0;}
+.add-link:link,
+.add-link:visited{font-size:16px;color:#0066FF;text-decoration:underline;}
+
+
+/*���ư����г�*/
+.tour-table-box .table5 td{padding:3px 10px;}
+
+.border2{border:1px solid #E9E9E9;}
+
+/*ǩ����*/
+.signature{width:1250px;height:200px;border-top:1px dashed #999;font-size:16px;}
+.jiafang,.yifang{width:580px;float:left;padding:30px 20px;line-height:24px;position:relative;}
+.signature-text{width:200px;display:inline-block;border-bottom:1px solid #000;}
+.zhang{position:absolute;top:-10px;left:130px;}
+.btn-bg{background-color:#ECF5FF;}
+
+/*���۵�*/
+.priceTable{width:1000px;}
+.priceTableInfo{height:30px;overflow:hidden;}
+.priceType td{color:#FFF;}
+.priceTable table td{border:1px solid #BFBFBF;}
+.orange{color:#E46D0A;}
+.priceInfoBox{width:1255px;overflow:hidden;padding-top:15px;}
+.priceInfoText{width:400px;float:left;}
+.priceInfoText h3{padding:5px 0;font-size:15px;}
+.priceInfoText textarea{width:300px;}
+
+/*��������*/
+.tablePadding10 td{padding:10px;}
+
+/*��Ӧ�̱༭*/
+.provider-table th,
+.provider-table td{border:1px solid #CCC;padding-right:10px;}
+.provider-table th{line-heigth:15px;}
+
+.visible-input {display:none}
+.table3 th {
+	color: #315702;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 25px;
+	font-weight: normal;
+	background: none;
+	background-color: #DFEDCC;
+}
+.deleted {
+	text-decoration: line-through;
+	color: #999;
+}

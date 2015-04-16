@@ -1,13 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
     <link rel="shortcut icon" href="<?php echo $this->baseUrl; ?>/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/base.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/stylesheet.css" />
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/base.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/general.js"></script>
     <script type="text/javascript">
@@ -26,7 +27,6 @@
         |<a href="<?php echo $this->createUrl('site/logout')?>">Log off</a>
     </div>
 </div>
-
 <div id="admin-top-toggle" class="admin-top-toggle"></div>
 <div id="admin-side-toggle" class="admin-side-toggle"></div>
 <div id="admin-nav-sub-wrap"></div>

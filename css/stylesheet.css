@@ -7,14 +7,19 @@
   Copyright (c) 2002 osCommerce
 
   Released under the GNU General Public License
-*/
-@import url("menu.css");
-/* links */
 
-a:link.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none; }
-a:visited.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none }
-a:active.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: none; }
-a:hover.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8F020E; font-weight: bold; text-decoration: underline; }
+@import url("menu.css");*/
+/* links */
+a:link { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #00388A; font-weight: normal; text-decoration: none; }
+
+a:visited { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #00388A; font-weight: normal; text-decoration: none; }
+a:active { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #00388A; font-weight: normal; text-decoration: none; }
+a:hover { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #00388A; font-weight: normal; text-decoration: underline; }
+
+a:link.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a:visited.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: none }
+a:active.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: none; }
+a:hover.headerLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #FFFFFF; font-weight: bold; text-decoration: underline; }
 
 a:link.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
 a:visited.menuBoxHeadingLink { font-size: 10px; color: #616060; font-weight: bold; text-decoration: none; }
@@ -26,10 +31,10 @@ a:visited.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-siz
 a:active.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: none; }
 a:hover.menuBoxContentLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; font-weight: normal; text-decoration: underline; }
 
-a:link.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: none; }
-a:visited.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: none; }
-a:active.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 110px; color: #0000FF; font-weight: normal; text-decoration: none; }
-a:hover.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #0000FF; font-weight: normal; text-decoration: underline;  }
+a:link.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:visited.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:active.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #0000FF; font-weight: normal; text-decoration: none; }
+a:hover.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #0000FF; font-weight: normal; text-decoration: underline; background-color: #FFFF33; }
 
 /* menu box */
 .menuBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #616060; background-color: #ffffff; }
@@ -39,13 +44,13 @@ a:hover.splitPageLink { font-family: Verdana, Arial, sans-serif; font-size: 11px
 body { background-color: #ffffff; color: #000000; margin: 0px; }
 .headerBar { background-color: #B3BAC5; }
 .headerBarContent { font-family: Verdana, Arial, sans-serif; font-size: 8px; color: #000080; font-weight: bold; padding: 2px }
-.columnLeft { background-color: #F0F1F1; border-color: #999999; border-width: 1px; border-style: solid; padding: 2px; }
-.pageHeading { font-family: Verdana, Arial, sans-serif; font-size: 18px; color: #727272; font-weight: bold; }
-.pageHeadingSmall { font-family: Verdana, Arial, sans-serif; font-size: 14px; color: #727272; font-weight: bold; }
+.columnLeft { background-color: #F0F1F1; border-color: #8F8F8F; border-width: 1px; border-style: solid; padding: 2px; }
+.pageHeading { font-family: Verdana, Arial, sans-serif; font-size: 18px; color: #16406F; font-weight: bold; }
+.pageHeadingSmall { font-family: Verdana, Arial, sans-serif; font-size: 14px; color: #16406F; font-weight: bold; }
 
 /* data table */
 .dataTableHeadingRow { background-color: #619FD4; }
-.dataTableHeadingContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; }
+.dataTableHeadingContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; padding: 4px 0px;  }
 .dataTableRow { background-color: #EBF2F9; }
 .dataTableRowSelected { background-color: #F0E1C3; }
 .dataTableRowSelectedPink { background-color: #F8E0F3; }
@@ -54,8 +59,8 @@ body { background-color: #ffffff; color: #000000; margin: 0px; }
 .dataTableContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }
 
 /* info box */
-.infoBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; background-color: #B3BAC5; }
-.infoBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #DEE4E8; }
+.infoBoxHeading { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; background-color: #9E5C14; padding: 4px 0px;}
+.infoBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #F0E1C3; }
 
 /* message box */
 
@@ -64,9 +69,12 @@ body { background-color: #ffffff; color: #000000; margin: 0px; }
 .messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #99ff00; }
 
 /* forms */
-CHECKBOX, INPUT, RADIO, SELECT, TEXTAREA, FILE { font-family: Verdana, Arial, sans-serif; font-size: 11px; border:1px solid #DADADA; padding:3px 2px 3px 2px;}
+CHECKBOX, INPUT, RADIO, SELECT, TEXTAREA, FILE { font-family: Verdana, Arial, sans-serif; font-size: 11px; border:1px solid #C6C5C2; padding:2px 2px 2px 2px; }
 FORM { display: inline; }
-
+INPUT.bordernone{
+        border:none;
+        padding:0px;
+}
 /* account */
 .formArea { background-color: #f1f9fe; border-color: #7b9ebd; border-style: solid; border-width: 1px; }
 .formAreaTitle { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 12px; font-weight: bold; }
@@ -81,12 +89,12 @@ FORM { display: inline; }
 .fieldRequired { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
 .smallText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
 .main { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
-.errorText { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+.errorText { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #ff0000; }
 
 /* WebMakers.com Added: Editing Attributes */
-.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
-.TR.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
-.TD.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #C0C0C0; }
+.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; font-weight:bold; color: #FFFFFF; background-color: #9E5C14; line-height:15px; }
+.TR.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; font-weight:bold; color: #FFFFFF; background-color: #9E5C14; line-height:15px;}
+.TD.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; font-weight:bold; color: #000000; background-color: #C0C0C0; line-height:15px; }
 
 /* Lango Infobox Admin */
 .infoboxAdmin { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; }
@@ -137,7 +145,7 @@ padding: 3px 7px;
 margin-right: 3px;
 border: 1px solid #778;
 color: #2d2b2b;
-background: #EBF2F9 url(/image/shade.gif) top left repeat-x;
+background: white url(../img/shade.gif) top left repeat-x;
 }
 
 .shadetabs li a:visited{
@@ -151,12 +159,12 @@ color: #2d2b2b;
 
 .shadetabs li a.selected{ /*selected main tab style */
 position: relative;
-top: 1px; outline:none;
+top: 1px;
 }
 
 .shadetabs li a.selected{ /*selected main tab style */
-background-image: url(/image/shadeactive.gif);
-border-bottom-color: #EBF2F9; outline:none;
+background-image: url(../img/shadeactive.gif);
+border-bottom-color: white;
 }
 
 .shadetabs li a.selected:hover{ /*selected main tab style */
@@ -168,96 +176,149 @@ text-decoration: none;
     background-color: pink;
 }
 .pageHeadingSmall_comp { font-family: Verdana, Arial, sans-serif; font-size: 14px; font-weight: bold; }
+.dataTableRowSelectedRedTotal { background-color: #FCA4AC; }
+.border_bot1 { border-bottom:1px solid; }
+.conf_detail_texts      { color:#223C6A; font-size:12px; font-weight:bold;      }
 
-
-.sub { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; line-height: 1.5; color: #dddddd; }
-.text { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #000000; }
-.smallText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
-.login_heading { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000;}
-.login { font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000;}
-.loginfooter { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-size: 10pt }
-.successMsg { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: green; }
-
-.body_min_height
-{
-	height:450px;
+.thumbnail{ position: relative; z-index: 0; outline:none; }
+.thumbnail:hover { background-color: transparent; z-index: 50; text-decoration:none; }
+.thumbnail span { /*CSS for enlarged image*/
+                position:absolute; background-color: lightyellow; padding: 5px;
+                left: -100px; border:1px dashed gray; border-style:dotted ;
+                visibility: hidden; color: black; text-decoration: none;
+                opacity:.95; filter:alpha(opacity=95);
 }
-.orddtl_link:link, .orddtl_link:visited	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; text-decoration:underline;	}
-.orddtl_link:hover	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #000000; text-decoration:none;	}
-.grayBorder	{	border:1px solid #619fd4;	}
-.statuslst_link:link, .statuslst_link:visited	{ font-family: Verdana, Arial, sans-serif; font-size: 12px; color: #00388A; text-decoration:none;	}
-.statuslst_link:hover	{ text-decoration:underline;	}
+.thumbnail span img { /*CSS for enlarged image*/ border-width: 0; padding: 2px; }
+.thumbnail:hover span { /*CSS for enlarged image on hover*/ visibility: visible; top:12px; left:0px !important; left:0px; }
 
-/* Start - Tiny MCE CSS*/
-/* Reset */
-.defaultSkin table, .defaultSkin tbody, .defaultSkin a, .defaultSkin img, .defaultSkin tr, .defaultSkin div, .defaultSkin td, .defaultSkin iframe, .defaultSkin span, .defaultSkin *, .defaultSkin .mceText {border:0; margin:0; padding:0; background:transparent; white-space:nowrap; text-decoration:none; font-weight:normal; cursor:default; color:#000; vertical-align:baseline; width:auto; border-collapse:separate; text-align:left}
-.defaultSkin a:hover, .defaultSkin a:link, .defaultSkin a:visited, .defaultSkin a:active {text-decoration:none; font-weight:normal; cursor:default; color:#000}
-.defaultSkin table td {vertical-align:middle}
+/* order and e-ticket pages - new design - stylesheet start */
+.clear { clear: both;}
+.order_all{ width:100%; background:#fff; font-family:Tahoma; font-size:12px; margin:0 auto; padding:0; }
+.order_head{ background:#919191;  padding:0px 0; _padding-bottom: 0;width:99%; padding-left:0px; }
+.order_head h3{ color:#fff; font-size:30px; float:left; margin-left:14px; font-weight:bold; font-family:Tahoma; padding: 5px 0; padding-top:17px; line-height:24px;}
+.order_head input.searchbox{ float:left; width:450px; height:24px; color:#919191; margin-left:50px; line-height: 24px; padding-left: 5px;}
+.order_head input.button{  margin-left:15px; width:80px; height:26px; color:#000; font-weight:bold; font-size:14px; background:url(../img/but_11.gif) no-repeat top left; border:none; cursor:pointer;} /*float:left;*/
+.order_head_c{  height:28px;  background:#F1F1F1; padding-left:10px; padding-top:7px; padding-bottom:7px; border-bottom:#c7c7c7 solid 1px; }
 
-/* Containers */
-.defaultSkin table {direction:ltr; background:#F0F0EE}
-.defaultSkin iframe {display:block; background:#FFF}
-.defaultSkin .mceToolbar {height:26px}
-.defaultSkin .mceLeft {text-align:left}
-.defaultSkin .mceRight {text-align:right}
+.order_text1{ width:450px; border:#DADADA solid 1px; color:#C3C3C3; font-size:12px; font-family:Tahoma; line-height:18px; height:18px;}
+.order_text2{ width:175px; padding-left:3px; height:24px; padding-top:3px;  border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.text_time{ border:#ddd solid 1px; background:url(../img/Calendar.gif) no-repeat right center ;  width:175px; padding-left:3px; height:20px;}
+.order_text3{ width:467px; padding-left:3px; height:24px; line-height:24px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.order_text4{ width:297px; padding-left:3px; height:24px; line-height:24px; border:#DADADA solid 1px; color:#DADADA; font-size:12px; font-family:Tahoma;}
+.order_text5{ width:72px; padding-left:3px; height:24px; line-height:24px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.order_text6{ width:360px; padding-left:3px; height:22px; line-height:24px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.order_option{ width:317px; height:26px;  line-height:26px; padding-left:3px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.order_option2{ width:180px; line-height:24px; padding-left:3px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.textarea1{ width:700px; height:245px; border:#DADADA solid 1px;font-size:12px; padding:10px; line-height:20px;}
+.textarea2{ width:300px; height:75px; border:#DADADA solid 1px; color:#DADADA; font-size:12px; padding:10px; line-height:20px;}
+.textarea3{ width:840px; height:200px; border:#DADADA solid 1px; color:#000; font-size:12px; padding:10px; line-height:20px;}
+.but_2{ float:left; margin-left:15px; width:80px; height:26px; color:#000; font-weight:bold; font-family:Tahoma; font-size:14px; background:url(../img/but_1.gif) no-repeat top left; border:none; cursor:pointer;}
+.but_22{ margin-left:15px; width:80px; height:26px; color:#000; font-weight:bold; font-family:Tahoma; font-size:14px; background:url(../img/but_1.gif) no-repeat top left; border:none; cursor:pointer;}
+.but_3{ white-space:nowrap; line-height:21px; width:80px; height:21px; color:#000; background:url(../img/but_111.gif) no-repeat top left; border:none; font-size:12px; cursor:pointer; margin-bottom:5px;}
+.but_4{ white-space:nowrap; line-height:26px; width:70px; height:26px; color:#000; font-weight:bold; font-family:Tahoma; background:url(../img/but_1111.gif) no-repeat top left; border:none; font-size:12px; cursor:pointer;}
+.col_h{ color:#8F8F8F; font-weight:normal; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.col_gre{ color:#389d01; font-size:12px; font-family:Tahoma;}
+.col_red{ color:#ff0000;}
+.col_red_b{ color:#ff0000; font-weight:bold; font-size:14px;}
+.col_b{ color:#000; font-weight:bold; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.col_b1{ color:#000; font-weight:bold; font-size:14px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.col_b2{ font-size:14px; font-weight:normal; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.col_b3{ color:#000; font-size:12px; font-family:Tahoma;}
+.col_a{ color:#0060FF; text-decoration:none; font-size:12px; font-weight:normal; cursor:pointer}
+.col_a:hover{ text-decoration:underline;}
+a.col_a1{ line-height:18px; color:#00388A; text-decoration:none; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+a.col_a1:hover{line-height:18px; text-decoration:underline; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.col_1{ color:#F77A00; font-weight:bold;}
+.next_line{ width:100%; border-bottom:#E4E4E4 dashed 1px;}
+.next_line2{border-bottom:#E4E4E4 dashed 1px; padding-bottom:5px;}
+.bor_t{ border-top:#C4C4C4 solid 1px; border-bottom:#C4C4C4 solid 1px;}
+.bor_tab{ border:#D3D3D3 solid 1px;}
+.bor_tab1{ border:#619FD4 solid 1px;}
+.bg_c_all{ background:#FAFAFA;}
+.bg_c_all2{ background:#FFFEF6;}
+.bg_c_all3{ background:#E3E3E3; line-height:18px;}
+.bg_c_item{ background:#F8F8F8; line-height:14px;}
+.bg_c_item1{ background:#D5ECFF; line-height:18px; }
+.p_l{ padding-left:10px;}
+.p_l1{ padding-left:5px;}
+.p_t{ padding-top:7px;}
+.p_t1{ padding-top:15px;}
+.p_t2{ padding-top:25px;}
+.p_b{ padding:2px 5px;}
+.p_r{ padding-right:5px;}
+.mar_t{ margin-top:20px;}
+.mar_t1{ margin-top:10px;}
+.mar_l{ margin-left:40px;}
+.line_h1{ line-height:24px;}
+.table_td_p td{ padding-bottom:5px; padding-top:5px;}
+.text_c{ text-align:center}
+.order_content1{ width:100%;}
+.f_order1{ cursor:pointer; width:200px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.f_order1_s{curosr:pointer; width:200px; background:url(../img/Sotf.gif) no-repeat bottom right; background-position:190px 24px;
+padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.order_f_tab{ width:98%; padding-left:2%; padding-top:25px; }
+.order_note{ background:#FFFEF9; border:#F6F4F3 solid 1px; padding:12px 10px; color:#8F8F8F; width:80%; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.f_order2{curosr:pointer; width:160px; background:url(../img/Sot.gif) no-repeat bottom right; background-position:150px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order2_s{curosr:pointer; width:160px; background:url(../img/Sotf.gif) no-repeat bottom right; background-position:150px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order3{ curosr:pointer; width:115px; background:url(../img/Sot.gif) no-repeat bottom right; background-position:105px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order3_s{ curosr:pointer; width:115px; background:url(../img/Sotf.gif) no-repeat bottom right; background-position:105px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order4{ curosr:pointer; width:135px; background:url(../img/Sot.gif) no-repeat bottom right; background-position:125px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order4_s{ curosr:pointer; width:135px; background:url(../img/Sotf.gif) no-repeat bottom right; background-position:125px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order5{ curosr:pointer; width:400px; background:url(../img/Sot.gif) no-repeat bottom right; background-position:390px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.f_order5_s{ curosr:pointer; width:400px; background:url(../img/Sotf.gif) no-repeat bottom right; background-position:390px 24px; padding-left:5px; color:#000; font-size:16px; font-weight:bold; padding-top:20px; }
+.order_f_tab1{ width:99%;}
+.order_f_tab1 td{ padding-bottom:2px;}
+.tab_t{ background:#619FD4; color:#fff; line-height:22px; height:24px; font-weight:bold; padding-left:5px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:12px;}
+.tab_line1{border-right:#ECECEC 1px groove; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:12px; border-bottom: 1px solid #C4C4C4;}
+.tab_t_bg{ background:#E8F4FF; line-height:24px; color:#8F8F8F; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:12px;}
+.order_yz_tab{ border:#EDF7DF solid 1px; background:#FBFFF6;}
+.order_yz_tab_t{ background:#F3FAE9; color:#7A7979; line-height:24px;}
+.order_canel{ width:100%; float:left;}
+.canel_ul{ list-style:none; float:left; padding:0; margin:10px 0;}
+.canel_ul li{ padding-bottom:3px; padding-top:3px;}
+.order_tm_bg{ position:absolute; right:50%; top:800px; background:#B4B4B4; width:730px; margin-right:-375px; padding:10px;}
+.order_tc{ width:730px; background:#fff; }
+.order_tc_all{ width:730px; background:#fff;}
+.order_tc_t{ width:705px; height:23px; padding-top:7px; padding-left:10px; padding-right:15px; background:#E4E4E4; margin-top:1px;}
+.order_tc_t_span{ float:left;}
+.order_tc_t_img{ float:right; cursor:pointer}
+.order_tc_content{ width:710px; padding-left:10px; padding-right:10px; padding-bottom:25px;}
+.order_tm_bg1{ position:absolute; right:50%; top:800px; background:#b4b4b4; width:895px; margin-right:-457px; padding:10px;}
+.order_tc1{ width:895px; border:#b5b5b5 solid 10px; position:absolute; right:5%; top:650px; background:#fff;}
+.order_tc1_t{ width:870px; height:23px; padding-top:7px; padding-left:10px; padding-right:15px; background:#E4E4E4; margin-top:1px;}
+.order_tc1_content{ width:875px; padding:10px;}
+.canel_ul1{ list-style:none; float:left; padding:0; margin:10px 0;}
+.canel_ul1 li{ padding-bottom:7px; padding-top:7px;}
+.order_foot{ width:100%; background:#EEF4FF; border-top:#B1B1B1 solid 1px; margin-top:20px; padding-top:20px; padding-bottom:30px;}
+.order_search{ width:984px; padding-left:10px; padding-right:10px;}
+.order_search_bt{ font-size:14px; font-family:Tahoma; color:#000;}
+.but_5{ line-height:26px; width:120px; height:26px; color:#000; font-weight:bold; background:url(../img/search_b.gif) no-repeat top left; border:none; font-size:12px; font-family:Tahoma; cursor:pointer;}
+.text_right{ text-align:right; padding-top:10px; padding-bottom:10px;}
+.text_right td{ padding-top:3px; padding-bottom:3px; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; line-height:18px;}
+.order_default{ color:#000; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; line-height:18px; }
+.tab_line1_wo_bot_border{border-right:#ECECEC 1px groove; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:12px;}
+.order_textbox{ padding-left:3px; height:24px; line-height:24px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma; padding-top:3px;}
+.order_textarea{ padding-left:3px; border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.but_3_long{ white-space:nowrap; line-height:21px; width:110px; height:21px; color:#000; background:url(../img/but_111_long.gif) no-repeat top left; border:none; font-size:12px; cursor:pointer; margin-bottom:5px;}
+.order_default a{ color:#00388A; font-weight:bold; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.order_default a:hover{ color:#00388A; font-weight:bold;}
+a.col_a1_popup{ line-height:18px; color:#00388A; text-decoration:none; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+a.col_a1_popup:hover{line-height:18px; font-size:12px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+.but_3_toolong{ white-space:nowrap; line-height:21px; width:160px; height:21px; color:#000; background:url(../img/but_111_toolong.gif) no-repeat top left; border:none; font-size:12px; cursor:pointer; margin-bottom:5px;}
+.red_border{ border:1px solid red; }
+.order_text7{ width:200px; padding-left:3px; height:24px; padding-top:3px;  border:#DADADA solid 1px; color:#000; font-size:12px; font-family:Tahoma;}
+.eticket_provider_contact{font-family:Verdana,Arial,sans-serif; font-weight:bold; font-size:12px; color:#E97116;}
+/* order and e-ticket pages - new design - stylesheet end */
+a.faq_default { font-weight:bold; font-size:12px; font-family:Verdana, Arial, sans-serif;}
+a.faq_default:hover{ text-decoration:underline;}
+a.black_link:link { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; font-weight: normal; text-decoration: none; }
+a.black_link:visited { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; font-weight: normal; text-decoration: none; }
+a.black_link:active { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; font-weight: normal; text-decoration: none; }
+a.black_link:hover { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; font-weight: normal; text-decoration: underline; }
+.footer{margin-top:20px;font-size:12px;background:#eee;border-top:1px solid #ccc;padding:10px 0;}
+.pager{ float:right; padding-bottom:3px;}
 
-/* External */
-.defaultSkin .mceExternalToolbar {position:absolute; border:1px solid #CCC; border-bottom:0; display:none;}
-.defaultSkin .mceExternalToolbar td.mceToolbar {padding-right:13px;}
-.defaultSkin .mceExternalClose {position:absolute; top:3px; right:3px; width:7px; height:7px; background:url(../../img/icons.gif) -820px 0}
-
-/* Layout */
-.defaultSkin table.mceLayout {border:0; border-left:1px solid #CCC; border-right:1px solid #CCC}
-.defaultSkin table.mceLayout tr.mceFirst td {border-top:1px solid #CCC}
-.defaultSkin table.mceLayout tr.mceLast td {border-bottom:1px solid #CCC}
-.defaultSkin table.mceToolbar, .defaultSkin tr.mceFirst .mceToolbar tr td, .defaultSkin tr.mceLast .mceToolbar tr td {border:0; margin:0; padding:0;}
-.defaultSkin td.mceToolbar {padding-top:1px; vertical-align:top}
-.defaultSkin .mceIframeContainer {border-top:1px solid #CCC; border-bottom:1px solid #CCC}
-.defaultSkin .mceStatusbar {font-family:'MS Sans Serif',sans-serif,Verdana,Arial; font-size:9pt; line-height:16px; overflow:visible; color:#000; display:block; height:20px}
-.defaultSkin .mceStatusbar div {float:left; margin:2px}
-.defaultSkin .mceStatusbar a.mceResize {display:block; float:right; background:url(../../img/icons.gif) -800px 0; width:20px; height:20px; cursor:se-resize; outline:0}
-.defaultSkin .mceStatusbar a:hover {text-decoration:underline}
-.defaultSkin table.mceToolbar {margin-left:3px}
-.defaultSkin span.mceIcon, .defaultSkin img.mceIcon {display:block; width:20px; height:20px}
-.defaultSkin .mceIcon {background:url(../../img/icons.gif) no-repeat 20px 20px}
-.defaultSkin td.mceCenter {text-align:center;}
-.defaultSkin td.mceCenter table {margin:0 auto; text-align:left;}
-.defaultSkin td.mceRight table {margin:0 0 0 auto;}
-
-/* Button */
-.defaultSkin .mceButton {display:block; border:1px solid #F0F0EE; width:20px; height:20px; margin-right:1px}
-.defaultSkin a.mceButtonEnabled:hover {border:1px solid #0A246A; background-color:#B2BBD0}
-.defaultSkin a.mceButtonActive, .defaultSkin a.mceButtonSelected {border:1px solid #0A246A; background-color:#C2CBE0}
-.defaultSkin .mceButtonDisabled .mceIcon {opacity:0.3; -ms-filter:'alpha(opacity=30)'; filter:alpha(opacity=30)}
-.defaultSkin .mceButtonLabeled {width:auto}
-.defaultSkin .mceButtonLabeled span.mceIcon {float:left}
-.defaultSkin span.mceButtonLabel {display:block; font-size:10px; padding:4px 6px 0 22px; font-family:Tahoma,Verdana,Arial,Helvetica}
-.defaultSkin .mceButtonDisabled .mceButtonLabel {color:#888}
-
-/* Separator */
-.defaultSkin .mceSeparator {display:block; background:url(../../img/icons.gif) -180px 0; width:2px; height:20px; margin:2px 2px 0 4px}
-
-/* Menu */
-.defaultSkin .mceMenu {position:absolute; left:0; top:0; z-index:1000; border:1px solid #D4D0C8}
-.defaultSkin .mceNoIcons span.mceIcon {width:0;}
-.defaultSkin .mceNoIcons a .mceText {padding-left:10px}
-.defaultSkin .mceMenu table {background:#FFF}
-.defaultSkin .mceMenu a, .defaultSkin .mceMenu span, .defaultSkin .mceMenu {display:block}
-.defaultSkin .mceMenu td {height:20px}
-.defaultSkin .mceMenu a {position:relative;padding:3px 0 4px 0}
-.defaultSkin .mceMenu .mceText {position:relative; display:block; font-family:Tahoma,Verdana,Arial,Helvetica; color:#000; cursor:default; margin:0; padding:0 25px 0 25px; display:block}
-.defaultSkin .mceMenu span.mceText, .defaultSkin .mceMenu .mcePreview {font-size:11px}
-.defaultSkin .mceMenu pre.mceText {font-family:Monospace}
-.defaultSkin .mceMenu .mceIcon {position:absolute; top:0; left:0; width:22px;}
-.defaultSkin .mceMenu .mceMenuItemEnabled a:hover, .defaultSkin .mceMenu .mceMenuItemActive {background-color:#dbecf3}
-.defaultSkin td.mceMenuItemSeparator {background:#DDD; height:1px}
-.defaultSkin .mceMenuItemTitle a {border:0; background:#EEE; border-bottom:1px solid #DDD}
-.defaultSkin .mceMenuItemTitle span.mceText {color:#000; font-weight:bold; padding-left:4px}
-.defaultSkin .mceMenuItemDisabled .mceText {color:#888}
-.defaultSkin .mceMenuItemSelected .mceIcon {background:url(img/menu_check.gif)}
-.defaultSkin .mceNoIcons .mceMenuItemSelected a {background:url(img/menu_arrow.gif) no-repeat -6px center}
-.defaultSkin .mceMenu span.mceMenuLine {display:none}
-.defaultSkin .mceMenuItemSub a {background:url(img/menu_arrow.gif) no-repeat top right;}
-a img{border:0}
-img{border:0}
-/* END - Tiny MCE CSS*/
+.grid-view table.items th {
+    color: white;
+    text-align: left;
+}

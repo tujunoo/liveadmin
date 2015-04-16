@@ -5,8 +5,7 @@ class BannersController extends BaseController
         private $redirectUrl;
         function __construct($id,$module){
                 parent::__construct($id,$module);
-//                $this->breadcrumbs->add('Tool' , '#');
-//                $this->breadcrumbs->add('Banner List' , $this->createUrl('Banners/index'));
+                $this->breadcrumbs->add('Banner List' , $this->createUrl('Banners/index'));
                 $this->redirectUrl = $this->createUrl('banners/index');
 				$this->setPageTitle('Banner');
         }
@@ -20,7 +19,7 @@ class BannersController extends BaseController
                         if($_POST['Banners']['group_new'] != ''){
                                 $_POST['Banners']['group'] = $_POST['Banners']['group_new'];
                         }
-                        Yii::import('webeez.extensions.Uploader');
+                        Yii::import('application.extensions.Uploader');
                         $up = Uploader::create($this->mainImagesabsuPath)->renameFormat('[name][extension]')->existFile(Uploader::EXISTS_RENAME);
                         $up->process('image');
 
@@ -41,7 +40,7 @@ class BannersController extends BaseController
                         if($model->insert()){
                                 $this->addFlash('Banner insert successfully.....');
 								//upload to cdn folder start
-								Yii::app()->rackspaceConnect->upload($this->mainImagesabsuPath.$_POST['image']);
+//								Yii::app()->rackspaceConnect->upload($this->mainImagesabsuPath.$_POST['image']);
 								//upload to cdn folder end
                         }else{
                                 $this->addErrorMessage('Insert fail.');

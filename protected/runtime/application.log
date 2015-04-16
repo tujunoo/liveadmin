@@ -1193,3 +1193,1629 @@ HTTP_REFERER=http://admin.live.com/post/1/Welcome%21
 2015/04/16 12:03:12 [error] [exception.CDbException] CDbConnection failed to open the DB connection.
 2015/04/16 12:03:44 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'10.0.0.101' (using password: NO)
 2015/04/16 12:03:44 [error] [exception.CDbException] CDbConnection failed to open the DB connection.
+2015/04/16 16:14:32 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:34 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:37 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:39 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:14:41 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:14:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:16:50 [error] [php] include(Store.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/vagrant/git/liveadmin/yii/yii/YiiBase.php:432)
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/controllers/BaseController.php(39): spl_autoload_call()
+#1 /vagrant/git/liveadmin/protected/controllers/BannersController.php(7): BannersController->__construct()
+#2 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(359): BannersController->__construct()
+#3 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(276): CWebApplication->createController()
+#4 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#6 /vagrant/git/liveadmin/index.php(20): CWebApplication->run()
+REQUEST_URI=/banners/index
+2015/04/16 16:17:01 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:33 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:38 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "banner/index".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banner/index')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/banner/index
+HTTP_REFERER=http://admin.live.com/
+---
+2015/04/16 16:20:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "banner/index".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banner/index')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/banner/index
+HTTP_REFERER=http://admin.live.com/
+---
+2015/04/16 16:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "banner/index".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banner/index')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/banner/index
+HTTP_REFERER=http://admin.live.com/
+---
+2015/04/16 16:20:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:57 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:04 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:14 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:16 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:21:19 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:21:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:35 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:36 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:47 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:52 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:21:59 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:00 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:01 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:19 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:22:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:21 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:29 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:22:31 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:22:37 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:23:02 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:23:02 [error] [exception.CException] exception 'CException' with message 'Alias "webeez.extensions.Uploader" is invalid. Make sure it points to an existing directory or file.' in /vagrant/git/liveadmin/yii/yii/YiiBase.php:348
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/controllers/BannersController.php(22): YiiBase::import('webeez.extensio...')
+#1 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionCreate()
+#2 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('Create')
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/Create')
+#7 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#9 {main}
+REQUEST_URI=/banners/Create?id=&Banners_page=
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:24:11 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:24:24 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:24:24 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:24:24 [error] [exception.CDbException] exception 'CDbException' with message 'Master db server is not available now!Disallow write operation on slave server!' in /vagrant/git/liveadmin/protected/extensions/DbConnectionMan.php:83
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/db/schema/CDbCommandBuilder.php(244): DbConnectionMan->createCommand('INSERT INTO `tb...')
+#1 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(1079): CDbCommandBuilder->createInsertCommand(Object(CMysqlTableSchema), Array)
+#2 /vagrant/git/liveadmin/protected/controllers/BannersController.php(40): CActiveRecord->insert()
+#3 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionCreate()
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('Create')
+#8 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/Create')
+#9 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/banners/Create?id=&Banners_page=
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:25:03 [error] [exception.CDbException] CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhos' (1)
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:25:03 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:25:03 [error] [exception.CDbException] exception 'CDbException' with message 'Master db server is not available now!Disallow write operation on slave server!' in /vagrant/git/liveadmin/protected/extensions/DbConnectionMan.php:83
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/db/schema/CDbCommandBuilder.php(244): DbConnectionMan->createCommand('INSERT INTO `tb...')
+#1 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(1079): CDbCommandBuilder->createInsertCommand(Object(CMysqlTableSchema), Array)
+#2 /vagrant/git/liveadmin/protected/controllers/BannersController.php(40): CActiveRecord->insert()
+#3 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionCreate()
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('Create')
+#8 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/Create')
+#9 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/banners/Create?id=&Banners_page=
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:27:46 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:27:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.rackspaceConnect" is not defined.' in /vagrant/git/liveadmin/yii/yii/base/CComponent.php:130
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/base/CModule.php(105): CComponent->__get('rackspaceConnec...')
+#1 /vagrant/git/liveadmin/protected/controllers/BannersController.php(43): CModule->__get('rackspaceConnec...')
+#2 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionCreate()
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('Create')
+#7 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/Create')
+#8 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/banners/Create?id=&Banners_page=
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:29:29 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_cur_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_cu...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_cur_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:35:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:35:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:41:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index?search=
+---
+2015/04/16 16:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/menu.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('css/menu.css')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/menu.css
+HTTP_REFERER=http://admin.live.com/css/stylesheet.css
+---
+2015/04/16 16:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/left_nav_list_bg.gif".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/left_nav_li...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/left_nav_list_bg.gif
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/index
+---
+2015/04/16 16:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "html_text" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "bgcolor" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "group_new" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "sort_order" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "language" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "domestic_ip" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "scheduled" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "expiration" of "Banners".
+2015/04/16 16:43:56 [warning] [application] Failed to set unsafe attribute "show_in_affilate" of "Banners".
+2015/04/16 16:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/underscore-min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/underscore-m...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/underscore-min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tip_success.png".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tip_success...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tip_success.png
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/th_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/th_bg.jpg')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/th_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:44:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tr_hl_bg.jpg".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('img/tr_hl_bg.jp...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/tr_hl_bg.jpg
+HTTP_REFERER=http://admin.live.com/css/base.css
+---
+2015/04/16 16:51:09 [error] [exception.CException] exception 'CException' with message 'There is no CClientScript package: /js/jquery-1.7.1.min.js' in /vagrant/git/liveadmin/yii/yii/web/CClientScript.php:598
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/views/layouts/main.php(12): CClientScript->registerCoreScript('/js/jquery-1.7....')
+#1 /vagrant/git/liveadmin/yii/yii/web/CBaseController.php(126): require('/vagrant/git/li...')
+#2 /vagrant/git/liveadmin/yii/yii/web/CBaseController.php(95): CBaseController->renderInternal('/vagrant/git/li...', Array, true)
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(784): CBaseController->renderFile('/vagrant/git/li...', Array, true)
+#4 /vagrant/git/liveadmin/protected/controllers/BannersController.php(180): CController->render('index', Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionIndex()
+#6 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('index')
+#10 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('Banners/index')
+#11 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#13 {main}
+REQUEST_URI=/Banners/index
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.css
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 16:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 16:54:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.css
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 16:54:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 16:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.css
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 16:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/banners/Modify
+---
+2015/04/16 17:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.css
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 17:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 17:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/index
+---
+2015/04/16 17:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.css".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.css
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 17:10:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 17:10:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/datepicker/jquery.datepicker.min.js".' in /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('js/datepicker/j...')
+#1 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---

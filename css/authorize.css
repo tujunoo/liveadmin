@@ -11,7 +11,7 @@
 #operWrap h2{position:relative;z-index:1;}
 
 
-#loading{width:460px;height:300px;position:absolute;top:38px;left:10px;background:#FFF url(../img/loading.gif) no-repeat center center;opacity:0.7;z-index:3;filter:Alpha(opacity=70);display:none;}
+#loading{width:460px;height:300px;position:absolute;top:38px;left:10px;/*background:#FFF url(../img/loading.gif) no-repeat center center;*/opacity:0.7;z-index:3;filter:Alpha(opacity=70);display:none;}
 
 
 #tar,#oper{min-height:260px;_height:260px;background-color:#FFF;margin-top:8px;}
@@ -32,15 +32,16 @@
 
 .searchBox{padding:0 5px 5px;}
 .searchBox .itext{height:19px;line-height:19px;width:300px;}
-#operWrap .searchBox .itext{width:200px;}
+#operWrap .searchBox .itext{width:160px;}
 .searchBox .btn2{margin-left:5px;padding:0 10px;}
 .selectFunc{float:left;line-height:27px;_display:inline;}
 #operWrap .selectFunc{text-decoration:underline;}
 
 .innerCon{overflow:auto;}
 .textlist{padding:0 5px;overflow:hidden;}
-.textlist li{float:left;padding:5px 7px 5px 0;}
+.textlist li{padding:5px 7px 5px 0;}
 .textlist li a{padding:2px 4px;border:1px solid #FFF;outline:none;}
+.textlist li span{margin-left:5px;color:#999;}
 .textlist li a:hover{background-color:#FAFAFA;text-decoration:none;border-color:#CCC;}
 .textlist li.current a{background-color:#FAFAFA;text-decoration:none;border-color:#CCC;/*cursor:default;*/}
 .textlist li input{vertical-align:middle;}

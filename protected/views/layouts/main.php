@@ -6,19 +6,26 @@
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></meta>
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/sub.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/js/datepicker/jquery.datepicker.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/js/popwin/popwin.css" />
-    <?php Yii::app()->clientScript->registerCoreScript('jquery') ?>
-    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/sub.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/base.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/sub.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/popwin/jquery.popwin.min.js"></script>
-    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/datepicker/jquery.datepicker.min.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl.'/js/jquery.tablesorter.js'?>" ></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/general.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/underscore-min.js"></script>
 </head>
 <body>
+<div class="admin-path">
+    <?php $this->breadcrumbs->display();?>
+</div>
+<h1 class="main-title"><?php echo CHtml::encode($this->pageTitle)?></h1>
 <div id="admin-contents">
     <?php echo $content; ?>
 </div>
 </body>
+<script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/datepicker/jquery.datepicker.min.js"></script>
 </html>

@@ -13,6 +13,7 @@ if (file_exists($configDev)) {
     define('YII_DEBUG', false);
     $config = include($config);
 }
+require_once('functions.php');
 // remove the following line when in production mode
 // defined('YII_DEBUG') or define('YII_DEBUG',true);
 

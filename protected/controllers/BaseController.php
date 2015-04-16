@@ -27,15 +27,14 @@ class BaseController extends CController {
         parent::__construct($id,$module);
 
 
-        $this->request = Yii::app()->request;
-        $this->setPageTitle('PA | Tours4Fun');
-
         /* URL management */
         $this->baseUrl = Yii::app()->baseUrl;
         $this->imageUrl = Yii::app()->baseUrl.'/img/';
-        /* URL management*/
 
+        $this->request = Yii::app()->request;
+        $this->setPageTitle('Admin');
         $this->breadcrumbs = new Breadcrumbs();
+        $this->breadcrumbs->add('Home' , $this->createUrl('site/index'));
 
         $this->absolutePath = realpath('./').DIRECTORY_SEPARATOR;
     }
