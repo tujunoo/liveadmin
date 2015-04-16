@@ -7,7 +7,7 @@ class BaseController extends CController {
 
     protected $messages = array();
     protected $request = null;
-    public $layout = 'backend_layout';
+    public $layout = '';
     public $breadcrumbs = array();
     public $language = null;
     public $lang_name = null;
@@ -23,7 +23,7 @@ class BaseController extends CController {
     public function __construct($id,$module= null){
 
         Yii::app()->charset =  'UTF-8';
-        $this->layout = '';
+        $this->layout = 'main';
         parent::__construct($id,$module);
 
 
@@ -34,6 +34,8 @@ class BaseController extends CController {
         $this->baseUrl = Yii::app()->baseUrl;
         $this->imageUrl = Yii::app()->baseUrl.'/img/';
         /* URL management*/
+
+        $this->breadcrumbs = new Breadcrumbs();
 
         $this->absolutePath = realpath('./').DIRECTORY_SEPARATOR;
     }

@@ -47,7 +47,7 @@
                 <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Attributes</a></li>
             </ul>
         </li>
-        <li class="navtit"> <a href="<?php echo $this->createUrl('site/action2'); ?>" target="conframe">Minority Group</a></li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('banners/index'); ?>" target="conframe">广告管理</a></li>
         </ul>
         </div>
     </div>

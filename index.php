@@ -1,9 +1,18 @@
 <?php
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/yii/yii/yii.php';
-$config=dirname(__FILE__).'/protected/config/main.php';
-
+$yii = dirname(__FILE__) . '/yii/yii/yii.php';
+$configDev = dirname(__FILE__) . '/protected/config/dev.php';
+$config = dirname(__FILE__) . '/protected/config/main.php';
+if (file_exists($configDev)) {
+    define('IS_DEV_SITE', true);
+    define('YII_DEBUG', true);
+    $config = include($configDev);
+} else {
+    define('IS_DEV_SITE', false);
+    define('YII_DEBUG', false);
+    $config = include($config);
+}
 // remove the following line when in production mode
 // defined('YII_DEBUG') or define('YII_DEBUG',true);
 
