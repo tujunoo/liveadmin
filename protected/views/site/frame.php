@@ -39,7 +39,7 @@
     <div id="admin-side-con">
         <div class="admin-nav-box">
         <ul id="admin-nav" class="admin-nav">
-        <li class="navtit"> <a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">menu1</a>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('configuration/index')?>" target="conframe">meunu1</a>
             <ul class="navsub">
                 <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Listings</a></li>
                 <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Type</a></li>
@@ -47,7 +47,8 @@
                 <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Attributes</a></li>
             </ul>
         </li>
-        <li class="navtit"> <a href="<?php echo $this->createUrl('banners/index'); ?>" target="conframe">广告管理</a></li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('banners/index'); ?>" target="conframe">banners</a></li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('configuration/index')?>" target="conframe">configuration</a></li>
         </ul>
         </div>
     </div>

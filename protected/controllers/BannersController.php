@@ -19,9 +19,9 @@ class BannersController extends BaseController
                         if($_POST['Banners']['group_new'] != ''){
                                 $_POST['Banners']['group'] = $_POST['Banners']['group_new'];
                         }
-                        Yii::import('application.extensions.Uploader');
-                        $up = Uploader::create($this->mainImagesabsuPath)->renameFormat('[name][extension]')->existFile(Uploader::EXISTS_RENAME);
-                        $up->process('image');
+//                        Yii::import('application.extensions.Uploader');
+//                        $up = Uploader::create($this->mainImagesabsuPath)->renameFormat('[name][extension]')->existFile(Uploader::EXISTS_RENAME);
+//                        $up->process('image');
 
                         $model->image=$_POST['image'];
                         $model->setScenario('insert');
@@ -61,9 +61,9 @@ class BannersController extends BaseController
                         }
                         if(isset($_POST['Banners']))
                         {
-                                Yii::import('webeez.extensions.Uploader');
-                                $up = Uploader::create($this->mainImagesabsuPath)->renameFormat('[name][extension]')->existFile(Uploader::EXISTS_RENAME);
-                                $up->process('image');
+//                                Yii::import('webeez.extensions.Uploader');
+//                                $up = Uploader::create($this->mainImagesabsuPath)->renameFormat('[name][extension]')->existFile(Uploader::EXISTS_RENAME);
+//                                $up->process('image');
                                 /* use webeez.extensions.Uploader upload file, Because CUploadedFile can't upload file*/
 
                                 $model->title = $_POST['Banners']['title'];

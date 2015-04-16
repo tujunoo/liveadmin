@@ -2819,3 +2819,130 @@ Stack trace:
 REQUEST_URI=/js/datepicker/jquery.datepicker.min.js
 HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
 ---
+2015/04/16 18:45:05 [error] [exception.CException] exception 'CException' with message 'ConfigurationController cannot find the requested view "index".' in /vagrant/git/liveadmin/yii/yii/web/CController.php:878
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /vagrant/git/liveadmin/protected/controllers/ConfigurationController.php(179): CController->render('index', Array)
+#2 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): ConfigurationController->actionIndex()
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('index')
+#7 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('/Configuration/...')
+#8 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#9 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#10 {main}
+REQUEST_URI=//Configuration/index
+---
+2015/04/16 18:45:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'live.configuration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `configuration`.
+2015/04/16 18:45:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "configuration" for active record class "Configuration" cannot be found in the database.' in /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php:2385
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Configuration))
+#1 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(1606): CActiveRecord->getTableSchema()
+#3 /vagrant/git/liveadmin/yii/yii/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#4 /vagrant/git/liveadmin/yii/yii/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#5 /vagrant/git/liveadmin/yii/yii/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#6 /vagrant/git/liveadmin/yii/yii/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#7 /vagrant/git/liveadmin/protected/views/configuration/index.php(28): CDataProvider->getData()
+#8 /vagrant/git/liveadmin/yii/yii/web/CBaseController.php(126): require('/vagrant/git/li...')
+#9 /vagrant/git/liveadmin/yii/yii/web/CBaseController.php(95): CBaseController->renderInternal('/vagrant/git/li...', Array, true)
+#10 /vagrant/git/liveadmin/yii/yii/web/CController.php(869): CBaseController->renderFile('/vagrant/git/li...', Array, true)
+#11 /vagrant/git/liveadmin/yii/yii/web/CController.php(782): CController->renderPartial('index', Array, true)
+#12 /vagrant/git/liveadmin/protected/controllers/ConfigurationController.php(179): CController->render('index', Array)
+#13 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): ConfigurationController->actionIndex()
+#14 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('index')
+#18 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('/Configuration/...')
+#19 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#20 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#21 {main}
+REQUEST_URI=//Configuration/index
+---
+2015/04/16 18:46:14 [error] [php] include(ConfigurationGroup.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/vagrant/git/liveadmin/yii/yii/YiiBase.php:432)
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/controllers/ConfigurationController.php(48): spl_autoload_call()
+#1 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): ConfigurationController->actionModify()
+#2 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams()
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): ConfigurationController->runAction()
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): ConfigurationController->runActionWithFilters()
+#5 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): ConfigurationController->run()
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /vagrant/git/liveadmin/index.php(21): CWebApplication->run()
+REQUEST_URI=/configuration/Modify
+2015/04/16 18:46:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'live.configuration_group' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `configuration_group`.
+2015/04/16 18:46:31 [error] [exception.CDbException] exception 'CDbException' with message 'The table "configuration_group" for active record class "ConfigurationGroup" cannot be found in the database.' in /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php:2385
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(ConfigurationGroup))
+#1 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 /vagrant/git/liveadmin/yii/yii/db/ar/CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 /vagrant/git/liveadmin/protected/models/ConfigurationGroup.php(61): CActiveRecord->findAll('`active` = :act...', Array)
+#5 /vagrant/git/liveadmin/protected/controllers/ConfigurationController.php(48): ConfigurationGroup->getAllGroups()
+#6 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): ConfigurationController->actionModify()
+#7 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('Modify')
+#11 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('configuration/M...')
+#12 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#14 {main}
+REQUEST_URI=/configuration/Modify
+HTTP_REFERER=http://admin.live.com//Configuration/index
+---
+2015/04/16 18:46:51 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:46:51 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:46:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allow to modify this configuration item . 
+                        			To modify this item , you must have one of those permissions "conf_all","conf_group999","conf_item_trest"' in /vagrant/git/liveadmin/protected/controllers/ConfigurationController.php:73
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): ConfigurationController->actionModify()
+#1 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('modify')
+#5 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('Configuration/m...')
+#6 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#7 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#8 {main}
+REQUEST_URI=/Configuration/modify?cID=1&
+HTTP_REFERER=http://admin.live.com/Configuration/index
+---
+2015/04/16 18:48:41 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:48:57 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:49:42 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:55:58 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 18:56:04 [warning] [application] Failed to set unsafe attribute "configuration_id" of "Configuration".
+2015/04/16 19:01:25 [error] [exception.CException] exception 'CException' with message 'Alias "webeez.extensions.Uploader" is invalid. Make sure it points to an existing directory or file.' in /vagrant/git/liveadmin/yii/yii/YiiBase.php:348
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/controllers/BannersController.php(64): YiiBase::import('webeez.extensio...')
+#1 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionModify()
+#2 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('modify')
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/modify')
+#7 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#9 {main}
+REQUEST_URI=/banners/modify?id=1125&Banners_page=
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---
+2015/04/16 19:02:09 [error] [exception.CException] exception 'CException' with message 'Alias "webeez.extensions.Uploader" is invalid. Make sure it points to an existing directory or file.' in /vagrant/git/liveadmin/yii/yii/YiiBase.php:348
+Stack trace:
+#0 /vagrant/git/liveadmin/protected/controllers/BannersController.php(64): YiiBase::import('webeez.extensio...')
+#1 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): BannersController->actionModify()
+#2 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('modify')
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('banners/modify')
+#7 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#8 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#9 {main}
+REQUEST_URI=/banners/modify?id=1125&Banners_page=
+HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
+---

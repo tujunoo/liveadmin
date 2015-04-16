@@ -16,7 +16,7 @@ class Configuration extends CActiveRecord
          */
         public function tableName()
         {
-                return 'configuration';
+                return '{{configuration}}';
         }
 
         /**
