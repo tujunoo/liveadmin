@@ -31,25 +31,34 @@ return array(
 //			'connectionString' => 'sqlite:protected/data/blog.db',
 //			'tablePrefix' => 'tbl_',
 //		),
+    
 		// uncomment the following to use a MySQL database
         //mysql读写分离
 		'db'=>array(
-            'class' => 'application.models.extensions.DbConnection',    //CDbConnection
+            'class' => 'application.extensions.DbConnectionMan',    //DbConnectionMan
             'emulatePrepare' => true,
             'charset' => 'utf8',
             'enableProfiling' => YII_DEBUG,
             'enableParamLogging' => YII_DEBUG,
-            'connectionString' => 'mysql:host=localhost;dbname=blog',
+            'connectionString' => 'mysql:host=192.168.0.250;dbname=test',
             'username' => 'root',
             'password' => 'root',
 			'tablePrefix' => 'tbl_',
-            'slave' => array(
-                'emulatePrepare' => true,
-			    'connectionString' => 'mysql:host=localhost;dbname=blog',
-                'username' => 'root',
-                'password' => 'root',
-                'charset' => 'utf8',
-                'tablePrefix' => 'tbl_',
+            'enableSlave' => true,                  //Read write splitting function is swithable.You can specify this
+            'slaves'=>array(                        //slave connection config is same as CDbConnection
+                array(
+                    'connectionString' => 'mysql:host=localhost;dbname=blog',
+                    'username'=>'root',
+                    'password'=>'root',
+                    'tablePrefix' => 'tbl_',
+                    'emulatePrepare' => true,
+                    'charset' => 'utf8',
+                ),
+//                array(
+//                    'connectionString'=>'mysql:host=slave2;dbname=xxx',
+//                    'username'=>'demo',
+//                    'password'=>'xxx'
+//                ),
             ),
 		),
 		'errorHandler'=>array(
