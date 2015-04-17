@@ -1,0 +1,69 @@
+/*left*/
+* {margin: 0;padding: 0;list-style: none;}
+body{ background:#fff;font-size: 12px; /* font-size: 0.625em;  */font-family: 宋体, Tahoma, Arial, Verdana, Helvetica, sans-serif,;color:#000;margin-top:0px;}
+table {border-collapse: collapse;}
+a {color: #000;text-decoration: none;font-size:12px;}
+a:hover {color: #000;text-decoration: underline;}
+em {font-style: normal;}
+ins {text-decoration: none;}
+img {border: 0;}
+.clear{ clear:both;}
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+/*left*/
+.centerleft{ width:200px; height:100%; background:#fff;}
+.box1{ float:left; background:url(/img/lefttopbg.jpg) repeat-x;position:relative;width:200px;  border:none; height:30px; }
+.box1 .cc{height:30px; }
+.box1 .cc h3{color:#EBF3FE; font-weight:bold; font-size:12px; line-height:30px; padding-left:15px;}
+.box1 .tl {left:0;top:0; background:url(/img/lefttopbg_l.jpg) no-repeat; width:6px; height:30px; position:absolute;}
+.box1 .tr {right:0; _right:-1px; top:0; background:url(/img/lefttopbg_r.jpg) no-repeat; width:6px; height:30px; position:absolute;}
+.centerleft .leftcontentbox{ float:left; border:1px solid #ddd; border-top:0; width:198px; *width:200px; }
+.centerleft .leftcontentbox .leftcontent{float:left; border:1px solid #ddd; width:185px; margin:5px; display:inline;overflow-y:auto;}
+
+
+/* 显示ul */
+.ul_show{ display:block; }
+.ul_show li{ display:block;  padding-left:18px; }
+/* 隐藏ul */
+.ul_hide{ display:block; /*padding-left:18px;*/   }
+/* 未展开子菜单时div的css*/
+.div_add{ cursor:default; background:url(/img/normal.gif) no-repeat; background-position:10px 10px; padding-left:28px; border-bottom:1px dashed #DBDBDB; line-height:32px;}
+.div_add a{ line-height:32px; color:#000;}
+.div_add a:hover{ text-decoration:none; background-color:#6075b6; padding:4px 2px 4px 2px; color:#fff;}
+/* 展开子菜单时div的css*/
+.div_cut{ cursor:default;  background:url(/img/open.gif) no-repeat; background-position:10px 10px; padding-left:28px; border-bottom:1px dashed #F1F1F1; line-height:32px;}
+.div_add .div_cut a{ line-height:32px; }
+.div_add .div_cut a:hover{ text-decoration:none; background-color:#6075b6; padding:4px 2px 4px 2px; color:#fff;}
+/* 没有下级菜单时sapn的css*/
+.div_no_child{ cursor: auto; background:url(/img/end_b.gif) no-repeat; background-position:10px 10px; padding-left:28px; border-bottom:1px dashed #F1F1F1; line-height:32px;}
+.div_no_child a{  cursor:pointer; line-height:32px; color:#000;}
+.div_no_child a:hover{  cursor:pointer; line-height:32px; text-decoration:none; background-color:#6075b6; padding:4px 2px 4px 2px; color:#fff;}
+/* 当前选中的div的css*/
+.ul_show .div_select{  cursor:default;  line-height:32px; color:#FFFFFF; }
+.ul_show .div_select a{ color:#fff; line-height:32px;  background-color:#6075b6; padding:4px 2px 4px 2px; text-decoration:none;}
+
+.ul_show .div_select a:hover{  cursor:pointer; color:#fff; line-height:32px; padding:4px 2px 4px 2px;  background-color:#6075b6; text-decoration:none;}
+/* 当前没选中的div的css*/
+/* 鼠标经过时*/
+.ul_show .div_mousemove a{ background-color:#6075b6; padding:4px 2px 4px 2px; color:#fff; text-decoration:none; cursor:pointer;}
+/*位置控制层*/
+.LeftContentChild{ margin-left:-18px;}
+
+.centerbottom{height: 20px;}
+.bottomTxt {border-top: 1px solid #DDDDDD;color: #888888;font-family: Arial;font-size: 12px;height: 40px;line-height: 40px;text-align: center;width: 100%;}
+.leftshowbg {background: none repeat scroll 0 0 #EBEFF2;position: relative;width: 10px;}
+.leftshowbg:hover { background-color: #CDD0DF;}
+.leftshow {background: url("/img/leftcontentshow.jpg") no-repeat scroll 0 0 transparent;cursor: pointer;height: 47px;margin-top: 120px;position: absolute;top: 28%;width: 10px;}
+
+
+.power td {padding-right: 10px;padding-bottom:5px;}
+.power input[type="checkbox"] {margin-left: 5px;cursor:pointer;}
+.base td,tr{font-size: 13px;line-height:1.7;padding:3px 0;}
+.main-button{margin:10px 0;clear: both;}
+.dashboard_item h2 {background: none repeat scroll 0 0 #DCEBF9;padding: 5px;}
+.form-wrap {padding: 0px;}
+
+.wrap-table {position: relative;}
+.wrap-table ul li{line-height: 18px;}
+.groups-table { float: left;margin: 50px 30px 0 0;}
+
+

@@ -7,7 +7,7 @@ class BaseController extends CController {
 
     protected $messages = array();
     protected $request = null;
-    public $layout = 'backend_layout';
+    public $layout = '';
     public $breadcrumbs = array();
     public $language = null;
     public $lang_name = null;
@@ -23,17 +23,18 @@ class BaseController extends CController {
     public function __construct($id,$module= null){
 
         Yii::app()->charset =  'UTF-8';
-        $this->layout = '';
+        $this->layout = 'main';
         parent::__construct($id,$module);
 
-
-        $this->request = Yii::app()->request;
-        $this->setPageTitle('PA | Tours4Fun');
 
         /* URL management */
         $this->baseUrl = Yii::app()->baseUrl;
         $this->imageUrl = Yii::app()->baseUrl.'/img/';
-        /* URL management*/
+
+        $this->request = Yii::app()->request;
+        $this->setPageTitle('Admin');
+        $this->breadcrumbs = new Breadcrumbs();
+        $this->breadcrumbs->add('Home' , $this->createUrl('site/index'));
 
         $this->absolutePath = realpath('./').DIRECTORY_SEPARATOR;
     }

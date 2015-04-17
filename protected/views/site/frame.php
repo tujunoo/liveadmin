@@ -1,13 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
     <link rel="shortcut icon" href="<?php echo $this->baseUrl; ?>/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/base.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl; ?>/css/stylesheet.css" />
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/jquery.cookie.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/base.js"></script>
     <script type="text/javascript" src="<?php echo $this->baseUrl; ?>/js/general.js"></script>
     <script type="text/javascript">
@@ -18,15 +19,14 @@
 </head>
 <body id="admin-body">
 <div id="admin-top">
-    <a href="<?php echo $this->createUrl('site/index'); ?>">logo</a>
-    <h1 class="admin-title">管理中心</h1>
+    <a href="<?php echo $this->createUrl('site/index'); ?>"><img class="admin-logo" src="<?php echo $this->baseUrl; ?>/img/admin_logo.png" alt="" border="0" /></a>
+    <h1 class="admin-title">Store Admin</h1>
     <div class="welcome">
         Welcome,
         <?php echo Yii::app()->user->name;?>
         |<a href="<?php echo $this->createUrl('site/logout')?>">Log off</a>
     </div>
 </div>
-
 <div id="admin-top-toggle" class="admin-top-toggle"></div>
 <div id="admin-side-toggle" class="admin-side-toggle"></div>
 <div id="admin-nav-sub-wrap"></div>
@@ -38,18 +38,18 @@
     </h2>
     <div id="admin-side-con">
         <div class="admin-nav-box">
-            <ul id="admin-nav" class="admin-nav">
-
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">action1</a>
-                </li>
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action2')?>" target="conframe">action2</a>
-                </li>
-                <li class="navtit">
-                    <a href="<?php echo $this->createUrl('site/action3')?>" target="conframe">action3</a>
-                </li>
+        <ul id="admin-nav" class="admin-nav">
+        <li class="navtit"> <a href="<?php echo $this->createUrl('configuration/index')?>" target="conframe">meunu1</a>
+            <ul class="navsub">
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Listings</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Product Type</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Provider</a></li>
+                <li><a href="<?php echo $this->createUrl('site/action1')?>" target="conframe">Attributes</a></li>
             </ul>
+        </li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('banners/index'); ?>" target="conframe">banners</a></li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('configuration/index')?>" target="conframe">configuration</a></li>
+        </ul>
         </div>
     </div>
 </div>

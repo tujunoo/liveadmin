@@ -2363,7 +2363,52 @@ EOD;
 		return self::getIdByName(self::activeName($model,$attribute));
 	}
 
-	/**
+    /**
+     * State button , this button provide use ajax request change record's active state.
+     * you need add a action to call BaseController::changeModelState,
+     * This method will insert a script snippets to <head>
+     * @param int $default default value
+     * @param string $url  ajax call this url to change state,url return 0,1 or error message
+     * @param array $htmlOptions
+     * @return string the statebutton html code.
+     */
+    public static function stateButton($default,$url='',$htmlOptions =array()){
+
+        $key = "jsForStateButton";
+        if(!Yii::app()->clientScript->isScriptRegistered($key) ){
+            $js = 'function chtml_statebutton(obj,url){
+                                        $.get(url ,{},function(data){
+                                                if(data == "1"){
+                                                        $(obj).removeClass();
+                                                        $(obj).addClass("state-active");
+                                                }else if(data == "0"){
+                                                        $(obj).removeClass();
+                                                        $(obj).addClass("state-inactive");
+                                                }
+                                                else alert(data);
+                                        }
+                                        )
+                                }';
+            Yii::app()->clientScript->registerScript($key,$js,CClientScript::POS_BEGIN );
+        }
+        settype($htmlOptions,'array');
+        if($url != ''){
+            $htmlOptions['onClick'] ='chtml_statebutton(this,\''.$url.'\')';
+        }
+
+        if(isset($htmlOptions['confirmMessage'])){
+            $htmlOptions['onClick'] ='if(confirm(\'Do you really want change status?\')){chtml_statebutton(this,\''.$url.'\');}';
+        }
+
+        if((bool)$default == true){
+            $htmlOptions['class'] .= " state-active";
+        }else{
+            $htmlOptions['class'] .= " state-inactive";
+        }
+        return self::link("","javascript:",$htmlOptions);
+    }
+
+    /**
 	 * Generates HTML name for given model.
 	 * @see CHtml::setModelNameConverter()
 	 * @param CModel|string $model the data model or the model class name

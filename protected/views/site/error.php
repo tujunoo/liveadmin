@@ -1,12 +1,1 @@
-<?php
-$this->pageTitle=Yii::app()->name . ' - Error';
-$this->breadcrumbs=array(
-	'Error',
-);
-?>
-
-<h2>Error <?php echo $code; ?></h2>
-
-<div class="error">
-<?php echo CHtml::encode($message); ?>
-</div>
+对不起！您请求的页面暂时无法打开

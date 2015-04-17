@@ -1,0 +1,12 @@
+/* 
+    Document   : grid
+    Created on : Oct 24, 2012, 3:57:14 PM
+    Author     : gihan
+    Description:
+        Additional Gridview styles
+*/
+.even{background-color:#F5F5F5;}
+a.asc{background: url("../img/asc.gif") right center no-repeat;padding-right: 17px;}
+a.desc{background: url("../img/desc.gif") right center no-repeat;padding-right: 17px;}
+
+

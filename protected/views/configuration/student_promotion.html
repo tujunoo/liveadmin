@@ -1,0 +1,53 @@
+{{ this.displayMessage(3) }}
+<h3 class="group-title">Student Promotion Home Page Settings</h3>
+<div style="width:800px;">
+    <div class="sub-content">
+        <form id="base_info" name="base_info" method="post">
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Position A Products :</p>
+                <div class="fcon" style="width: 400px;">
+                    <input type="text" class="itext w150" name="cfg[position_a_products]" value="{{ cfg['position_a_products'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Position B Products :</p>
+                <div class="fcon" style="width: 400px;">
+                    <input type="text" class="itext w150" name="cfg[position_b_products]" value="{{ cfg['position_b_products'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Coupons A :</p>
+                <div class="fcon" style="width: 400px;">
+                    ID <input type="text" class="itext w150" name="cfg[coupon][0][id]" value="{{ cfg['coupon'][0]['id'] }}" autocomplete="off" />
+                    Title <input type="text" class="itext w200" name="cfg[coupon][0][desc]" value="{{ cfg['coupon'][0]['desc'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Coupons B :</p>
+                <div class="fcon" style="width: 400px;">
+                    ID <input type="text" class="itext w150" name="cfg[coupon][1][id]" value="{{ cfg['coupon'][1]['id'] }}" autocomplete="off" />
+                    Title <input type="text" class="itext w200" name="cfg[coupon][1][desc]" value="{{ cfg['coupon'][1]['desc'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Coupons C :</p>
+                <div class="fcon" style="width: 400px;">
+                    ID <input type="text" class="itext w150" name="cfg[coupon][2][id]" value="{{ cfg['coupon'][2]['id'] }}" autocomplete="off" />
+                    Title <input type="text" class="itext w200" name="cfg[coupon][2][desc]" value="{{ cfg['coupon'][2]['desc'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;">Promotion Coupons D :</p>
+                <div class="fcon" style="width: 400px;">
+                    ID <input type="text" class="itext w150" name="cfg[coupon][3][id]" value="{{ cfg['coupon'][3]['id'] }}" autocomplete="off" />
+                    Title <input type="text" class="itext w200" name="cfg[coupon][3][desc]" value="{{ cfg['coupon'][3]['desc'] }}" autocomplete="off" />
+                </div>
+            </div>
+            <div class="flist">
+                <p class="flabel gray" style="width: 200px;"><input type="submit" class="btn" value="Save" name="submit" /></p>
+                <div class="fcon" style="width: 400px;">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,3 +1,55 @@
+/* plugins by stephan
+* 2014 3 10
+*/
+(function($){
+	$.extend({
+		"extendObj": function(datas, temp, prefix) {
+			function replace(a, b, c) {
+				return a.indexOf(b) > -1 ? a.split(b).join(null === c ? "" : c) : a;
+			}
+			function objectToHtml(data, item, itemIndex) {
+				item = $.trim(item || temp);
+				var testReg = /\{@test\s+([^@]+)\s+@\}/, inlayReg = /\{@getTemplate\s*=\s*"([^"]*)"\}/, foreachReg = /\{@foreach\s+items="([^"]+)"\s*\}(.*)(?=\{\/)\{\/@foreach\}/, ifReg = /\{@if\s*=\s*"([^"]+)"\s*\}(.*)(?=\{\/)\{\/@if\}/, elseReg = /(.*)\{@else\}(.*)/;
+				for (var p in data) {
+					var theval = data[p];
+					if (theval && "object" == typeof theval && !theval.length) for (var objAttr in theval) item = replace(item, "{" + p + "." + objAttr + "}", theval[objAttr]); else (null == theval || "object" != typeof theval) && (item = replace(item, "{" + prefix + p + "}", theval));
+				}
+				for (; ifReg.test(item); ) {
+					var test = ifReg.exec(item), check = function($index, $data) {
+						return eval(test[1]);
+					}(itemIndex, data), testResult = "";
+					if (elseReg.test(test[2])) {
+						var elseTest = elseReg.exec(test[2]);
+						testResult = check ? elseTest[1] : elseTest[2];
+					} else testResult = check ? test[2] : "";
+					item = item.split(test[0]).join(testResult);
+				}
+				for (; inlayReg.test(item); ) {
+					var test = inlayReg.exec(item);
+					item = item.split(test[0]).join($("#" + test[1]).extendObj(data));
+				}
+				for (; foreachReg.test(item); ) {
+					var test = foreachReg.exec(item), items = data[test[1]], itemTemp = test[2], itemsHtml = "";
+					"object" == typeof items && items.length && (itemsHtml += $.extendObj(items, itemTemp, ".")), item = item.split(test[0]).join(itemsHtml);
+				}
+				for (; testReg.test(item); ) {
+					var test = testReg.exec(item);
+					item = item.split(test[0]).join(function($index, $data) {
+						return eval(test[1]);
+					}(itemIndex, data));
+				}
+				return item;
+			}
+			temp = $.trim(temp.replace(/(\s*)?(\n|\r)(\s*)?/g, "")), prefix = prefix || "";
+			var html = "";
+			if (temp.length) {
+				if ("string" == typeof datas && datas.length) html += temp.split("{" + prefix + "value}").join(datas); else if ("object" == typeof datas && datas.length) if ("string" == typeof datas[0]) for (var i = 0; i < datas.length; i++) html += temp.split("{" + prefix + "value}").join(datas[i]); else for (var i = 0; i < datas.length; i++) html += objectToHtml(datas[i], null, i); else "object" == typeof datas && (html += objectToHtml(datas));
+				return html;
+			}
+			return html;
+		}
+	})
+})(jQuery);
 /*Layout Function
  * Note:
  * All sizes in this function were calculated by jQuery
@@ -106,10 +158,10 @@ $(function(){
                 var con = me.find('.custom-menu-list');
                 me.hover(function(){
                         tit.addClass('custom-title-hover');
-                        con.show();
+                        con.css('z-index','9').show();
                 },function(){
                         tit.removeClass('custom-title-hover');
-                        con.hide();
+                        con.css('z-index','auto').hide();
                 });
         });
 });

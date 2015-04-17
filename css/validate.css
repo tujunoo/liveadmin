@@ -1,0 +1,5 @@
+#mini-tip{width:200px;border:1px solid #CCC;background-color:#FAFAFA;position:absolute;display:none;z-index:10;}
+#mini-tip-con{padding:10px 10px 10px 35px;min-height:20px;_height:20px;background-image:url(/img/error.png);background-repeat:no-repeat;background-position:10px 13px;font-weight:bold;line-height:20px;}
+#mini-tip-arrow{display:block;width:10px;height:6px;background:url(/img/mini_tip_arrow.gif) no-repeat;position:absolute;top:-6px;left:10px;}
+#mini-tip-close{display:block;width:12px;height:12px;background:url(/img/mini_tip_close.gif) no-repeat center center;cursor:pointer;position:absolute;top:7px;right:7px;}
+.tip-error{background-color:#FFF7F7;color:#F00;}
