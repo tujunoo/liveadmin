@@ -2,9 +2,12 @@
 
 class SiteController extends BaseController
 {
+    function __construct($id,$module){
+        parent::__construct($id,$module);
+        $this->layout = 'blank_layout';
+    }
     public function actionIndex()
     {
-        $this->layout = 'blank_layout';
         if (Yii::app()->user->isGuest) {
             $this->forward('site/login');
         } else {
@@ -12,24 +15,9 @@ class SiteController extends BaseController
         }
     }
 
-    public function actionOrder()
-    {
-        echo 'order';
-    }
-
     public function actionAction1()
     {
         echo 'action1';
-    }
-
-    public function actionAction2()
-    {
-        echo 'action2';
-    }
-
-    public function actionAction3()
-    {
-        echo 'action3';
     }
 
     /**

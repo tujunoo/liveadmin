@@ -2946,3 +2946,26 @@ Stack trace:
 REQUEST_URI=/banners/modify?id=1125&Banners_page=
 HTTP_REFERER=http://admin.live.com/Banners/modify?id=1125&Banners_page=
 ---
+2015/04/17 16:57:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in /vagrant/git/liveadmin/yii/yii/web/CController.php:878
+Stack trace:
+#0 /vagrant/git/liveadmin/yii/yii/web/CController.php(782): CController->renderPartial('login', Array, true)
+#1 /vagrant/git/liveadmin/protected/controllers/SiteController.php(62): CController->render('login', Array)
+#2 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#3 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('login')
+#7 /vagrant/git/liveadmin/yii/yii/web/CController.php(752): CWebApplication->runController('site/login')
+#8 /vagrant/git/liveadmin/protected/controllers/SiteController.php(12): CController->forward('site/login')
+#9 /vagrant/git/liveadmin/yii/yii/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#10 /vagrant/git/liveadmin/yii/yii/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /vagrant/git/liveadmin/yii/yii/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /vagrant/git/liveadmin/yii/yii/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(282): CController->run('')
+#14 /vagrant/git/liveadmin/yii/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#15 /vagrant/git/liveadmin/yii/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /vagrant/git/liveadmin/index.php(21): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://admin.live.com/
+---

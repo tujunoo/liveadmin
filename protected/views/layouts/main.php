@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="admin-path">
-    <?php $this->breadcrumbs->display();?>
+<!--    --><?php //$this->breadcrumbs->display();?>
 </div>
 <h1 class="main-title"><?php echo CHtml::encode($this->pageTitle)?></h1>
 <div id="admin-contents">

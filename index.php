@@ -3,7 +3,7 @@
 // change the following paths if necessary
 $yii = dirname(__FILE__) . '/yii/yii/yii.php';
 $configDev = dirname(__FILE__) . '/protected/config/dev.php';
-$config = dirname(__FILE__) . '/protected/config/main.php';
+$config = dirname(__FILE__) . '/protected/config/prod.php';
 if (file_exists($configDev)) {
     define('IS_DEV_SITE', true);
     define('YII_DEBUG', true);

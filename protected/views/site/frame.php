@@ -56,7 +56,7 @@
 
 <div id="admin-main">
     <div id="admin-main-con">
-        <iframe name="conframe" src="<?php echo $this->createUrl('site/order')?>" frameborder="0" width="100%" height="100%" scrolling="auto"></iframe>
+        <iframe name="conframe" src="<?php echo $this->createUrl('configuration/index')?>" frameborder="0" width="100%" height="100%" scrolling="auto"></iframe>
     </div>
 </div>
 <div id="admin-foot">Copyright &copy; 2006-2012 Tours4Fun.com</div>
