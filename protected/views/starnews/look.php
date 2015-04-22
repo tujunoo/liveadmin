@@ -11,19 +11,18 @@
         <div class="frmWrap">
           <div class="flist">
             <p class="flabel">Starnews Title:</p>
-            <div class="fcon"> <?php echo CHtml::textField('Starnews[title]',$data->title,array('must' => 'yes','class' => 'itext w500'))?>&nbsp;<font color="#FF0000">* Required</font></div>
+            <div class="fcon"> <?php echo CHtml::textField('Starnews[title]',$model->title,array('must' => 'yes','class' => 'itext w500'))?>&nbsp;</div>
           </div>
 
           <div class="flist">
             <p class="flabel">Star name:</p>
-            <div class="fcon"> <?php echo CHtml::textField('Starnews[star_name]',$data->html_text,array('class' => 'itext w500'))?></div>
+            <div class="fcon"> <?php echo CHtml::textField('Starnews[star_name]',$model->star_name,array('class' => 'itext w500'))?></div>
         </div>
 
             <div class="flist">
                 <p class="flabel">Landing Page URL:</p>
                 <div class="fcon">
-                    <?php echo CHtml::textField('Banners[url]', $data->url, array('must' => 'no', 'class' => 'itext w500')) ?>
-                    <span class="hint">Full url with "<b>http://</b>" or <b><a href="<?php echo $this->createUrl('landingpages/LandingPages')?>" target="_blank">landing page id</a></b> <font color="#FF0000">(for mobile non-responsive page only)</font></span>
+                   <?php echo CHtml::textField('Starnews[content]',$model->content,array('class' => 'itext w500'))?>
                 </div>
             </div>
       
