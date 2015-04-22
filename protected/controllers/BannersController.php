@@ -171,7 +171,7 @@ class BannersController extends BaseController
                         ),
                 ));
                 $bh = new BannersHistory;
-
+              
                 $this->render('index',array(
                         'dataProvider'=>$dataProvider,
                         'show' =>  $data,

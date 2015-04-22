@@ -49,6 +49,7 @@
         </li>
         <li class="navtit"> <a href="<?php echo $this->createUrl('banners/index'); ?>" target="conframe">banners</a></li>
         <li class="navtit"> <a href="<?php echo $this->createUrl('configuration/index')?>" target="conframe">configuration</a></li>
+        <li class="navtit"> <a href="<?php echo $this->createUrl('starnews/index'); ?>" target="conframe">starnews</a></li>
         </ul>
         </div>
     </div>

@@ -8,6 +8,7 @@ class SiteController extends BaseController
     }
     public function actionIndex()
     {
+    	
         if (Yii::app()->user->isGuest) {
             $this->forward('site/login');
         } else {

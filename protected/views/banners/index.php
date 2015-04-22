@@ -16,6 +16,7 @@
 </div>
 
 <div class="sub-title-box">
+
 	<?php foreach( $allGroup as $oneGroup) : ?>
 		<?php echo CHtml::link($oneGroup,$this->createUrl('index',array('search'=>$oneGroup)),array('class'=>'btn3 indent5'));?>
 	<?php endforeach; ?>
