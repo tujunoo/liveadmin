@@ -38,6 +38,7 @@ class 	StarnewsController extends BaseController
             	{
                      throw new CException('Banner #'.$_REQUEST['id'].' Not Exists');
                 }
+                
                  $this->render('look',array(
                                      
                                         'model'=>$model,
